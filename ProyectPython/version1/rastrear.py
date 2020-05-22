@@ -13,13 +13,13 @@ article_text = ""
 
 for p in paragraphs:  
 
-# Removing Square Brackets and Extra Spaces
-article_text = re.sub(r'\[[0-9]*\]', ' ', article_text)  
-article_text = re.sub(r'\s+', ' ', article_text)  
+    # Removing Square Brackets and Extra Spaces
+    article_text = re.sub(r'\[[0-9]*\]', ' ', article_text)  
+    article_text = re.sub(r'\s+', ' ', article_text)  
 
-# Removing special characters and digits
-formatted_article_text = re.sub('[^a-zA-Z]', ' ', article_text )  
-formatted_article_text = re.sub(r'\s+', ' ', formatted_article_text)  
+    # Removing special characters and digits
+    formatted_article_text = re.sub('[^a-zA-Z]', ' ', article_text )  
+    formatted_article_text = re.sub(r'\s+', ' ', formatted_article_text)  
 
 sentence_list = nltk.sent_tokenize(article_text)  
 
