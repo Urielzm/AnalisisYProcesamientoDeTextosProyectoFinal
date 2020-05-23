@@ -12,7 +12,6 @@ import sys
 sys.path.append("..")
 from Dialogos.DialogoAviso.DialogoAvisos import Ui_DialogAviso
 from Backend.Resumen import Resumen
-#
 
 
 class Ui_MainWindow(object):
@@ -26,11 +25,11 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.pushButton_Salir = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_Salir.setGeometry(QtCore.QRect(710, 530, 75, 23))
+        self.pushButton_Salir.setGeometry(QtCore.QRect(650, 520, 75, 23))
         self.pushButton_Salir.setStyleSheet("background-color: rgb(157, 157, 157);")
         self.pushButton_Salir.setObjectName("pushButton_Salir")
         self.pushButton_Obtemer_Resumen = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_Obtemer_Resumen.setGeometry(QtCore.QRect(700, 490, 81, 23))
+        self.pushButton_Obtemer_Resumen.setGeometry(QtCore.QRect(650, 490, 81, 23))
         self.pushButton_Obtemer_Resumen.setStyleSheet("background-color: rgb(154, 154, 154);")
         self.pushButton_Obtemer_Resumen.setObjectName("pushButton_Obtemer_Resumen")
         self.label_TextoIntroduce_Texto = QtWidgets.QLabel(self.centralwidget)
@@ -77,6 +76,10 @@ class Ui_MainWindow(object):
         self.label_Texto_Org_Y_Valorizacion = QtWidgets.QLabel(self.centralwidget)
         self.label_Texto_Org_Y_Valorizacion.setGeometry(QtCore.QRect(420, 190, 301, 31))
         self.label_Texto_Org_Y_Valorizacion.setObjectName("label_Texto_Org_Y_Valorizacion")
+        self.pushButton_Limpiar_cuadros = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_Limpiar_cuadros.setGeometry(QtCore.QRect(650, 460, 91, 23))
+        self.pushButton_Limpiar_cuadros.setStyleSheet("background-color: rgb(154, 154, 154);")
+        self.pushButton_Limpiar_cuadros.setObjectName("pushButton_Limpiar_cuadros")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 801, 21))
@@ -89,14 +92,22 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
         self.menubar.addAction(self.menuArchivo.menuAction())
 
+
         self.pushButton_Obtemer_Resumen.clicked.connect(self.imprime)
         self.r1=Resumen()
-
         self.retranslateUi(MainWindow)
         self.pushButton_Salir.clicked.connect(self.salirVolverAlMenuAnterior)
         self.pushButton_Salir.clicked.connect(MainWindow.close)
+        self.pushButton_Limpiar_cuadros.clicked.connect(self.limpiarCuadros)
+
+        self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
+    def limpiarCuadros(self):
+        self.textEdit_Entrada_de_texto.setText("")
+        self.textEdit_Salida_Organizacion_Valorizacion.setText("")
+        self.textEdit_Salida_Tabla_Frecuencias.setText("")
+        self.textEdit_Salida_Resumen_Obtenido.setText("")
 
     def imprime(self):
         text=self.textEdit_Entrada_de_texto.toPlainText()
@@ -131,7 +142,6 @@ class Ui_MainWindow(object):
         self.ui0=Ui_Form_Menu_Principal()
         self.ui0.setupUi(self.ventanaMenu)
         self.ventanaMenu.show()
-        #MainWindow.close()
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -143,9 +153,8 @@ class Ui_MainWindow(object):
         self.label_Texto_Tabla_fr.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Tabla de frecuencias</span></p></body></html>"))
         self.label_titulo.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:28pt; font-weight:600; color:#c8371a;\">Resumen</span></p></body></html>"))
         self.label_Texto_Org_Y_Valorizacion.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Oraciones y Valorización</span></p></body></html>"))
+        self.pushButton_Limpiar_cuadros.setText(_translate("MainWindow", "Limpiar Cuadros"))
         self.menuArchivo.setTitle(_translate("MainWindow", "Archivo"))
-
-    
 
 import Logos.LogoVentanaInicio.LogoEscudoFi_rc
 import Logos.LogoVentanaInicio.LogoEscudoUNAM_rc
