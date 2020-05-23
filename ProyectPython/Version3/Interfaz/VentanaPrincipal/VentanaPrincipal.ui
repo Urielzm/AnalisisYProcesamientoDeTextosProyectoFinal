@@ -250,10 +250,16 @@ background-color: qlineargradient(spread:pad, x1:0.824, y1:0.198864, x2:1, y2:0,
     <property name="title">
      <string>Archivo</string>
     </property>
+    <addaction name="actionGuardar"/>
    </widget>
    <addaction name="menuArchivo"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionGuardar">
+   <property name="text">
+    <string>Guardar en Archivo</string>
+   </property>
+  </action>
  </widget>
  <resources>
   <include location="../Logos/LogoVentanaInicio/LogoEscudoFi.qrc"/>

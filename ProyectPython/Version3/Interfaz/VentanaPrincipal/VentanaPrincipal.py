@@ -6,13 +6,14 @@
 #
 # WARNING! All changes made in this file will be lost!
 
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 sys.path.append("..")
 from Dialogos.DialogoAviso.DialogoAvisos import Ui_DialogAviso
 from Backend.Resumen import Resumen
-
+import os
+from datetime import datetime
+import time
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -90,8 +91,11 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
+        self.actionGuardar = QtWidgets.QAction(MainWindow)
+        self.actionGuardar.setObjectName("actionGuardar")
+        self.menuArchivo.addAction(self.actionGuardar)
         self.menubar.addAction(self.menuArchivo.menuAction())
-
+        self.retranslateUi(MainWindow)
 
         self.pushButton_Obtemer_Resumen.clicked.connect(self.imprime)
         self.r1=Resumen()
@@ -99,9 +103,21 @@ class Ui_MainWindow(object):
         self.pushButton_Salir.clicked.connect(self.salirVolverAlMenuAnterior)
         self.pushButton_Salir.clicked.connect(MainWindow.close)
         self.pushButton_Limpiar_cuadros.clicked.connect(self.limpiarCuadros)
+        self.fecha=datetime.now()
+        self.actionGuardar.triggered.connect(self.guardarResumenEnArchivo)
 
-        self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def guardarResumenEnArchivo(self):
+        tiempo_segundos = time.time()
+        tiempo_cadena = time.ctime(tiempo_segundos)
+        #nombre=str('Resumen'+str(tiempo_cadena)+'.txt')
+        nombre="resumen"+str(tiempo_segundos)+".txt"
+        print(nombre)
+        f = open (nombre,"w",encoding="utf-8")
+        f.write(self.textEdit_Salida_Resumen_Obtenido.toPlainText())
+        f.close()
+        self.abrirDialogoAviso("Resumen Guardado")
 
     def limpiarCuadros(self):
         self.textEdit_Entrada_de_texto.setText("")
@@ -155,6 +171,7 @@ class Ui_MainWindow(object):
         self.label_Texto_Org_Y_Valorizacion.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Oraciones y Valorización</span></p></body></html>"))
         self.pushButton_Limpiar_cuadros.setText(_translate("MainWindow", "Limpiar Cuadros"))
         self.menuArchivo.setTitle(_translate("MainWindow", "Archivo"))
+        self.actionGuardar.setText(_translate("MainWindow", "Guardar en Archivo"))
 
 import Logos.LogoVentanaInicio.LogoEscudoFi_rc
 import Logos.LogoVentanaInicio.LogoEscudoUNAM_rc
