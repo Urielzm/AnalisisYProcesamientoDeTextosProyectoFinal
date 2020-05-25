@@ -110,7 +110,7 @@ class Ui_MainWindow(object):
 
     def guardarResumenEnArchivo(self):
         tiempo_segundos = time.time()
-        tiempo_cadena = time.ctime(tiempo_segundos)
+        #tiempo_cadena = time.ctime(tiempo_segundos)
         #nombre=str('Resumen'+str(tiempo_cadena)+'.txt')
         nombre="resumen"+str(tiempo_segundos)+".txt"
         print(nombre)

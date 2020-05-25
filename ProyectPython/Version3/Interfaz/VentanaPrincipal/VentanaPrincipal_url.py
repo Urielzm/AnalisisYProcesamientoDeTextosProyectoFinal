@@ -10,6 +10,7 @@ import sys
 sys.path.append("..")
 from Dialogos.DialogoAviso.DialogoAvisos import Ui_DialogAviso
 from Backend.Resumen import Resumen
+from Backend.Html2Text import Html2Text
 
 
 class Ui_MainWindow_URL(object):
