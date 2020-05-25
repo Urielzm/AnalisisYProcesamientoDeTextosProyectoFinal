@@ -75,6 +75,10 @@ class Ui_MainWindow_URL(object):
         self.label_Texto_Org_Y_Valorizacion = QtWidgets.QLabel(self.centralwidget)
         self.label_Texto_Org_Y_Valorizacion.setGeometry(QtCore.QRect(420, 190, 301, 31))
         self.label_Texto_Org_Y_Valorizacion.setObjectName("label_Texto_Org_Y_Valorizacion")
+        self.pushButton_Limpiar_cuadros = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_Limpiar_cuadros.setGeometry(QtCore.QRect(650, 460, 91, 23))
+        self.pushButton_Limpiar_cuadros.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.pushButton_Limpiar_cuadros.setObjectName("pushButton_Limpiar_cuadros")
         MainWindow_URL.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow_URL)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 801, 21))
@@ -87,9 +91,14 @@ class Ui_MainWindow_URL(object):
         MainWindow_URL.setStatusBar(self.statusbar)
         self.menubar.addAction(self.menuArchivo.menuAction())
 
+        self.pushButton_Obtemer_Resumen.clicked.connect(self.imprime)
+        self.r1=Resumen()
+        self.url1 = Html2Text() 
         self.retranslateUi(MainWindow_URL)
         self.pushButton_Salir.clicked.connect(self.salirVolverAlMenuAnterior)
         self.pushButton_Salir.clicked.connect(MainWindow_URL.close)
+        self.pushButton_Limpiar_cuadros.clicked.connect(self.limpiarCuadros)
+        #self.fecha=datetime.now()
         QtCore.QMetaObject.connectSlotsByName(MainWindow_URL)
 
     def retranslateUi(self, MainWindow_URL):
@@ -103,6 +112,53 @@ class Ui_MainWindow_URL(object):
         self.label_titulo.setText(_translate("MainWindow_URL", "<html><head/><body><p align=\"center\"><span style=\" font-size:28pt; font-weight:600; color:#c8371a;\">Resumen</span></p></body></html>"))
         self.label_Texto_Org_Y_Valorizacion.setText(_translate("MainWindow_URL", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Oraciones y Valorización</span></p></body></html>"))
         self.menuArchivo.setTitle(_translate("MainWindow_URL", "Archivo"))
+
+    def guardarResumenEnArchivo(self):
+        tiempo_segundos = time.time()
+        nombre="Resumen_"+str(tiempo_segundos)+".txt"
+        #print(nombre)
+        f = open (nombre,"w",encoding="utf-8")
+        f.write(self.textEdit_Salida_Resumen_Obtenido.toPlainText())
+        f.close()
+        self.abrirDialogoAviso("Resumen Guardado")
+
+    def limpiarCuadros(self):
+        self.textEdit_Entrada_de_texto.setText("")
+        self.textEdit_Salida_Organizacion_Valorizacion.setText("")
+        self.textEdit_Salida_Tabla_Frecuencias.setText("")
+        self.textEdit_Salida_Resumen_Obtenido.setText("")
+
+    def imprime(self):
+        text = self.textEdit_Entrada_de_texto.toPlainText()
+        text = self.url1.get_full_text(text)
+        if text:
+            tabla_frecuencias=self.r1.tablaFrecuencias(text)
+            oracionesYValorizacion=self.r1.oracionesYvalorizacion(tabla_frecuencias, text)
+            tabla_frec_string=self.convertirAString(tabla_frecuencias)
+            oracionesYvalorizacion_string=self.convertirAString(oracionesYValorizacion)
+            #print(string)
+            res =self.r1.resumir(text, oracionesYValorizacion)
+        else:
+            res = "Error. Direccion URL no valida"
+
+
+        self.textEdit_Salida_Resumen_Obtenido.setText(str(res))
+        self.textEdit_Salida_Tabla_Frecuencias.setText(str(tabla_frec_string))
+        self.textEdit_Salida_Organizacion_Valorizacion.setText(str(oracionesYvalorizacion_string))        
+        self.abrirDialogoAviso("Resumen listo")
+
+    def convertirAString(self, diccionario):
+        string=""
+        for key in diccionario:
+            string+=str(key)+":"+"\t"+str(diccionario[key])+"\n"
+        return string
+
+
+    def abrirDialogoAviso(self, texto):
+        self.ventanaCam=QtWidgets.QDialog()
+        self.uiCam=Ui_DialogAviso()
+        self.uiCam.setupUi(self.ventanaCam,texto)
+        self.ventanaCam.show()
 
     def salirVolverAlMenuAnterior(self):
         from VentanaMenu import Ui_Form_Menu_Principal

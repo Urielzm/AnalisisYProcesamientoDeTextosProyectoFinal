@@ -112,8 +112,8 @@ class Ui_MainWindow(object):
         tiempo_segundos = time.time()
         #tiempo_cadena = time.ctime(tiempo_segundos)
         #nombre=str('Resumen'+str(tiempo_cadena)+'.txt')
-        nombre="resumen"+str(tiempo_segundos)+".txt"
-        print(nombre)
+        nombre="Resumen_"+str(tiempo_segundos)+".txt"
+        #print(nombre)
         f = open (nombre,"w",encoding="utf-8")
         f.write(self.textEdit_Salida_Resumen_Obtenido.toPlainText())
         f.close()

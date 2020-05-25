@@ -1,5 +1,6 @@
 from requests import get
 from bs4 import BeautifulSoup
+from requests.exceptions import ConnectionError
 
 class Html2Text(object):
     def __init__(self, url=None):
@@ -42,14 +43,17 @@ class Html2Text(object):
             Method to get all the text in a web page. It includes tags like
             h1, h2, h3, p, pre, and anothers
         """
+        try:
+            parser = self.make_request(url if url else None)
+            return parser.get_text()
+        except ConnectionError:
+            return None
 
-        parser = self.make_request(url if url else None)
-        return parser.get_text()
 
   
 
 if __name__ == "__main__":
     p = Html2Text()
-    text =p.get_full_text('https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html')
+    text =p.get_full_text('https://www.w3.sdorg/Protocols/rfc2616/rfc2616-sec14.html')
     print(text)
     
