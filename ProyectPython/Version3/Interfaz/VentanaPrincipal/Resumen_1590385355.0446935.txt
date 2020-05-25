@@ -1,0 +1,503 @@
+
+
+ 
+
+
+
+
+
+
+
+Inteligencia artificial - Artificial intelligence - qwe.wiki
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COVID-19 Update
+
+
+
+
+
+
+
+
+Source
+Authors
+Original
+
+
+Languages
+
+
+Čeština
+Deutsch
+Français
+Italiano
+Nederlands
+Polski
+Português
+Русский
+Türkçe
+Norsk
+
+
+
+Previous article
+Next article
+
+
+In other projects
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inteligencia artificial - Artificial intelligence 
+De Wikipedia, la enciclopedia libre 
+
+
+
+
+
+Esta es la última revisión aceptada , revisado el 7 de diciembre de 2018 . Para otros usos, véase AI (desambiguación) y la inteligencia artificial (desambiguación) . La inteligencia demostrada por las máquinas
+
+Inteligencia artificial
+
+Los principales objetivos
+
+
+
+
+el razonamiento del conocimiento
+Planificación
+Aprendizaje automático
+Procesamiento natural del lenguaje
+Visión por computador
+robótica
+ia fuerte
+
+
+
+
+Enfoques
+
+
+
+Simbólico
+Aprendizaje profundo
+redes bayesianas
+Los algoritmos evolutivos
+
+
+
+
+Filosofía
+
+
+
+
+Ética
+riesgo existencial
+prueba de Turing
+habitación china
+AI amistoso
+
+
+
+
+Historia
+
+
+
+
+Cronología
+Progreso
+invierno AI
+
+
+
+
+Tecnología
+
+
+
+aplicaciones
+proyectos
+Lenguajes de programación
+
+
+
+
+Glosario
+
+
+Glosario
+
+
+
+v
+t
+mi
+
+
+La inteligencia artificial ( AI ), a veces llamado máquina de inteligencia , se inteligencia demostrada por máquinas , en contraste con la inteligencia natural que se muestra por los seres humanos y otros animales. Coloquialmente, se aplica el término "inteligencia artificial", cuando una máquina imita las funciones cognitivas "" que los seres humanos se asocian con otras mentes humanas , tales como el "aprendizaje" y "resolución de problemas". El alcance de la IA se disputa: como máquinas son cada vez más capaces, tareas consideradas como que requiere la "inteligencia" a menudo se eliminan de la definición, un fenómeno conocido como el efecto de la IA , que conduce a la ocurrencia en el teorema de Tesler, "AI es todo lo que no tiene ha hecho todavía ". Por ejemplo, el reconocimiento óptico de caracteres es frecuentemente excluido de la "inteligencia artificial", habiéndose convertido en una tecnología de rutina. Capacidades de la máquina modernos generalmente clasificados como AI con éxito incluyen la comprensión del habla humana , compitiendo al más alto nivel en el juego estratégico sistemas (como el ajedrez y Go ), los coches que operan de manera autónoma , y el enrutamiento inteligente de las redes de distribución de contenidos y simulaciones militares . Los préstamos de la gestión de la literatura, Kaplan y Haenlein clasifican a la inteligencia artificial en tres diferentes tipos de sistemas de inteligencia artificial: la inteligencia artificial analítica, de inspiración humana y humanizada. Human-inspirada AI tiene elementos de cognitiva, así como la inteligencia emocional , la comprensión, además de los elementos cognitivos, también teniendo en cuenta las emociones humanas en su toma de decisiones . Humanizado AI muestra características de todos los tipos de competencias (es decir, cognitivas, emocionales y sociales de inteligencia ), capaz de ser consciente de sí mismo y consciente de sí mismo en las interacciones con los demás. La inteligencia artificial fue fundada como una disciplina académica en 1956, y en los años que ha experimentado varias oleadas de optimismo, seguido por la decepción y la pérdida de fondos (conocido como " invierno AI "), seguido de nuevos enfoques, el éxito y la renovación de fondos . Para la mayor parte de su historia, la investigación en IA se ha dividido en subcampos que a menudo no pueden comunicarse entre sí. Estos subcampos se basan en consideraciones técnicas, tales como determinados objetivos (por ejemplo, " robótica " o "aprendizaje automático"), el uso de herramientas específicas ( "lógica" o redes neuronales artificiales ), o profundas diferencias filosóficas. Los problemas tradicionales (u objetivos) de la investigación en IA incluyen el razonamiento , la representación del conocimiento , la planificación , el aprendizaje , procesamiento del lenguaje natural , la percepción y la capacidad de moverse y manipular objetos. Los enfoques incluyen métodos estadísticos , inteligencia computacional , y AI simbólico tradicional . Muchas herramientas se utilizan en la IA, incluidas las versiones de búsqueda y optimización matemática , redes neuronales artificiales , y los métodos basados en la estadística, la probabilidad y la economía . Esto plantea argumentos filosóficos sobre la naturaleza de la mente y la ética de crear seres artificiales dotados de inteligencia similar a la humana, que son temas que han sido explorados por el mito , la ficción y la filosofía desde la antigüedad . En el siglo XXI, las técnicas de AI han experimentado un resurgimiento siguientes avances concurrentes en potencia de los ordenadores , grandes cantidades de datos , y la comprensión teórica; y las técnicas de IA se han convertido en una parte esencial de la industria de la tecnología , lo que ayuda a resolver muchos problemas difíciles en la ciencia de la computación, ingeniería de software y la investigación de operaciones . Contenido
+
+
+
+1  Historia
+2  Conceptos básicos
+
+3  Problemas
+
+3.1  El razonamiento, la resolución de problemas
+3.2  Representación del conocimiento
+3.3  Planificación
+3.4  aprendizaje
+3.5  Procesamiento de lenguaje natural
+3.6  Percepción
+3.7  El movimiento y la manipulación
+3.8  La inteligencia social
+3.9  La inteligencia general
+
+
+
+4  Enfoques
+
+4.1  La cibernética y la simulación del cerebro
+
+4.2  simbólico
+
+4.2.1  simulación cognitiva
+4.2.2  basado en la lógica
+4.2.3  Anti-lógica o desaliñado
+4.2.4  basada en el conocimiento
+
+
+
+4.3  Sub-simbólica
+
+4.3.1  inteligencia soportado
+4.3.2  Inteligencia Computacional y Soft Computing
+
+
+4.4  aprendizaje estadístico
+4.5  La integración de los enfoques
+
+
+
+5  Herramientas
+
+5.1  Búsqueda y optimización
+5.2  lógica
+5.3  Métodos probabilísticos para el razonamiento incierto
+5.4  Los clasificadores y métodos de aprendizaje estadístico
+
+5.5  Las redes neuronales artificiales
+
+5.5.1  redes neuronales feedforward profundas
+5.5.2  redes neuronales recurrentes profundas
+
+
+5.6  Evaluar el progreso
+
+
+
+6  Aplicaciones
+
+6.1  Salud
+6.2  Automotive
+6.3  Finanzas y economía
+6.4  Videojuegos
+6.5  militar
+6.6  Auditoría
+6.7  Publicidad
+6.8  Arte
+
+
+
+7  Filosofía y ética
+
+7.1  Los límites de la inteligencia artificial en general
+
+7.2  El daño potencial
+
+7.2.1  riesgo existencial
+7.2.2  La devaluación de la humanidad
+7.2.3  Disminución de la demanda de mano de obra humana
+7.2.4  armas Autónomas
+
+
+
+7.3  máquinas éticas
+
+7.3.1  agentes morales artificiales
+7.3.2  ética de las máquinas
+7.3.3  malévolo y agradable AI
+
+
+
+7.4  conciencia de la máquina, la sensibilidad y la mente
+
+7.4.1  La conciencia
+7.4.2  computacionalismo y el funcionalismo
+7.4.3  fuerte hipótesis de AI
+7.4.4  derechos de los robots
+
+
+
+7,5  superinteligencia
+
+7.5.1  singularidad tecnológica
+7.5.2  El transhumanismo
+
+
+
+
+8  En la ficción
+9  Véase también
+10  Notas explicativas
+
+11  Referencias
+
+11.1  libros de texto de AI
+11.2  Historia de la IA
+11.3  Otras fuentes
+
+
+12  Otras lecturas
+13  Enlaces externos
+
+
+
+Historia
+Artículos principales: Historia de la inteligencia artificial y la línea de tiempo de la inteligencia artificial
+
+
+ 
+
+Talos , un antiguo mítica autómata con la inteligencia artificial
+
+De pensamiento capaz seres artificiales aparecieron como dispositivos de narración en la antigüedad, y han sido comunes en la ficción, como en Mary Shelley 's Frankenstein o Karel Capek ' s RUR (Robots Universales de Rossum) . El estudio de la lógica matemática condujo directamente a   Alan Turing 's teoría de la computación , lo que sugiere que una máquina, por el intercambio de símbolos tan simple como '0' y '1', podría simular cualquier acto concebible de la deducción matemática. Esta visión, que los ordenadores digitales pueden simular cualquier proceso de razonamiento formal, es conocida como la tesis de Church-Turing . Los asistentes Allen Newell ( CMU ), Herbert Simon ( CMU ), John McCarthy ( MIT ), Marvin Minsky ( MIT ) y Arthur Samuel ( IBM ) se convirtieron en los fundadores y Los líderes de la investigación en IA. Ellos y sus estudiantes producen programas que la prensa calificó de "sorprendente": los ordenadores estaban aprendiendo damas estrategias (y se dice que en 1959 estaban jugando mejor que el ser humano promedio), resolver problemas de álgebra, la demostración de teoremas lógicos ((c 1954). Lógica teórico , la primera carrera c. 1956) y de habla Inglés. Los fundadores de la IA se mostraron optimistas sobre el futuro: Herbert Simon predijo, "máquinas serán capaces, dentro de veinte años, de hacer cualquier trabajo de un hombre puede hacer". Marvin Minsky estuvo de acuerdo, por escrito, "dentro de una generación ... el problema de la creación de 'inteligencia artificial' sustancialmente se resolverá". A principios de la década de 1980, la investigación en IA fue restablecido por el éxito comercial de los sistemas expertos , una forma de programa de inseminación artificial que simula el conocimiento y la capacidad de análisis de los expertos humanos. Sin embargo, a partir de la caída de la máquina Lisp mercado en 1987, AI, una vez más cayó en el descrédito, y comenzó un segundo, hiato más duradero. A finales de 1990 y principios del siglo 21, AI comenzó a ser utilizado para la logística, minería de datos , diagnóstico médico y otras áreas. El éxito se debió al aumento de la potencia de cálculo (véase la ley de Moore ), un mayor énfasis en la solución de problemas específicos, nuevos lazos entre AI y otros campos (por ejemplo, estadísticas , economía y matemáticas ), y un compromiso de los investigadores a los métodos matemáticos y estándares científicos. Las computadoras más rápidas , mejoras algorítmicas, y el acceso a grandes cantidades de datos de los avances en la habilitados aprendizaje automático y la percepción; ávidos de datos de aprendizaje profundas métodos empezaron a dominar los puntos de referencia de precisión en torno a 2012 . El Kinect , que proporciona una interfaz corporal de movimiento 3D para la Xbox 360 y la Xbox One , utiliza algoritmos que surgieron de una larga investigación AI igual que los asistentes personales inteligentes en los teléfonos inteligentes . Esto marcó la finalización de un hito importante en el desarrollo de la Inteligencia Artificial como Go es un juego extremadamente compleja, más que ajedrez. De acuerdo con Bloomberg Jack Clark, 2015 fue un año clave para la inteligencia artificial, con el número de proyectos de software que utilizan la IA dentro de Google aumentó de un "uso esporádico" en 2012 a más de 2.700 proyectos. Alrededor de 2016, de China se aceleró en gran medida su financiación del gobierno; dada su gran cantidad de datos y su rápido aumento de la producción de la investigación, algunos observadores creen que puede estar en camino de convertirse en una "superpotencia AI". La intención de una IA función objetivo puede ser simple ( "1 si la AI gana un juego de Go , 0 en caso contrario") o compleja ( "Haz acciones matemáticamente similar a las acciones que recibieron premios en el pasado"). Si la IA está programado para " aprendizaje por refuerzo ", las metas pueden ser inducidas de forma implícita al recompensar a algunos tipos de comportamiento y castigar a otros. Alternativamente, un sistema evolutivo puede inducir objetivos mediante el uso de una " función de aptitud " para mutar y preferentemente replicar sistemas de alta puntuación AI; esto es similar a cómo los animales evolucionaron al deseo innato ciertos objetivos, tales como la búsqueda de alimentos, o cómo los perros pueden ser criados por medio de la selección artificial de poseer rasgos deseados. Algunos sistemas de inteligencia artificial, como vecino más cercano, en lugar razonar por analogía; estos sistemas no se dan generalmente objetivos, excepto en la medida en que los objetivos son de alguna manera implícita en sus datos de entrenamiento. Un ejemplo simple de un algoritmo es la siguiente receta para el juego óptimo en tic-tac-dedo del pie :
+
+Si alguien tiene una "amenaza" (es decir, dos seguidas), tomar la plaza restante. Muchos algoritmos de IA son capaces de aprender de los datos; pueden mejorar después de aprender nuevas heurísticas (estrategias, o "reglas de oro", que han funcionado bien en el pasado), o pueden escribir a sí mismos otros algoritmos. Algunos de los "aprendices" que se describen a continuación, incluidas las redes bayesianas, árboles de decisión, y del vecino más próximo, podría, en teoría, si se les da los datos infinitos, el tiempo y la memoria, aprender a aproximar cualquier función , incluyendo cualquier combinación de funciones matemáticas que describen mejor la el mundo entero. Por ejemplo, cuando se visualiza un mapa y en busca de la ruta de conducción más corta desde Denver a Nueva York en el Este, se puede omitir en la mayoría de los casos buscando en cualquier camino a través de San Francisco o de otras áreas hacia el oeste; por lo tanto, una IA empuñando un algoritmo de búsqueda de caminos como A * puede evitar la explosión combinatoria que se produciría si cada ruta posible debía considerarse pesadamente a su vez. El enfoque más antiguo (y más fácil de entender) a la IA era simbolismo (como la lógica formal): "Si un adulto por lo demás sano tiene fiebre, entonces ellos pueden tener la gripe ". Un segundo, más general, el enfoque es la inferencia bayesiana : "Si el paciente tiene fiebre actual, ajuste la probabilidad que tienen la gripe en tal y tal manera". El tercer enfoque importante, muy popular en aplicaciones de IA comerciales de rutina, son analogizers como SVM y del vecino más próximo : "Después de examinar los registros de pacientes que se sabe pasados, cuya temperatura, síntomas, la edad y otros factores en su mayoría coincide con el paciente actual, X% de esos pacientes resultaron tener la influenza". Un cuarto enfoque es más difícil de entender intuitivamente, pero se inspira en cómo funciona la maquinaria del cerebro: la red neuronal artificial enfoque utiliza "artificiales neuronas " que se pueden aprender mediante la comparación de sí mismo a la salida deseada y la modificación de los puntos fuertes de las conexiones entre sus neuronas internos a "reforzar" las conexiones que parecían ser útiles. Estos cuatro enfoques principales pueden superponerse entre sí y con los sistemas evolutivos; por ejemplo, las redes neuronales pueden aprender a hacer inferencias, generalizar y hacer analogías. Algunos sistemas implícita o explícitamente el uso múltiple de estos enfoques, junto a muchos otros algoritmos de IA y que no sean AI; el mejor enfoque es a menudo diferente dependiendo del problema. Estas inferencias pueden ser obvias, tales como "desde la salida del sol cada mañana durante los últimos 10.000 días, que probablemente saldrá mañana por la mañana, así". Pueden ser matizada, como "X% de las familias tienen especies geográficamente separadas con variantes de color, por lo que no es un Y% de probabilidad de que no descubiertos cisnes negros existen". Un ejemplo del mundo real es que, a diferencia de los humanos, los clasificadores de imagen actual no determinan la relación espacial entre los componentes de la imagen; en cambio, aprenden patrones abstractos de píxeles que los seres humanos son ajenos a, pero que se correlacionan linealmente con imágenes de ciertos tipos de objetos reales. Un sistema del coche de auto-conducción puede utilizar una red neuronal para determinar qué partes de la imagen parecen coincidir con las imágenes previas de entrenamiento de los peatones, y luego modelar esas áreas de movimiento lento pero algo impredecible prismas rectangulares que deben ser evitados. En comparación con los seres humanos, AI existente carece de varias características de "humano razonamiento de sentido común "; sobre todo, los humanos tienen mecanismos poderosos para razonar acerca de " física ingenua ", como el espacio, el tiempo y las interacciones físicas. Esta falta de "conocimiento común" significa que la IA a menudo hace que los diferentes errores que los seres humanos hacen, de manera que puedan resultar incomprensibles. Por ejemplo, los coches auto-conducción existentes no pueden razonar acerca de la ubicación ni las intenciones de los peatones en la manera exacta en que lo hacen los humanos, y en su lugar debe utilizar modos no humanos de razonamiento para evitar accidentes. Razonamiento, resolución de problemas
+
+Los primeros investigadores desarrollaron algoritmos que imitaban el razonamiento paso a paso que los seres humanos utilizan cuando resuelven un rompecabezas o hacer deducciones lógicas. A finales de los años 1980 y 1990, la investigación en IA ha desarrollado métodos para tratar con incertidumbre información o incompleta, empleando los conceptos de probabilidad y la economía . Estos algoritmos resultaron ser insuficientes para resolver los grandes problemas de razonamiento, porque experimentaron una "explosión combinatoria": se convirtieron en exponencialmente más lento ya que los problemas se hicieron más grandes. De hecho, incluso los seres humanos rara vez utilizan la deducción paso a paso que las primeras investigaciones de AI fue capaz de modelar. Entre las cosas que una amplia base de conocimiento de sentido común podría contener son: objetos, propiedades, las categorías y las relaciones entre los objetos; situaciones, eventos, estados y el tiempo; causas y efectos; conocimiento sobre el conocimiento (lo que sabemos acerca de lo que otras personas sepan); y muchos otros dominios, menos bien investigados. Una representación de "lo que existe" es una ontología : el conjunto de objetos, relaciones, conceptos, propiedades y describe formalmente de modo que los agentes de software pueden interpretarlos. Las ontologías más generales se llaman ontologías superiores , que tratan de proporcionar una base para todos los demás conocimientos, actuando como mediadores entre ontologías de dominio que cubren un conocimiento específico de un dominio de conocimiento particular (campo de interés o área de interés). Tales representaciones formales de conocimiento se pueden utilizar en la indexación basada en el contenido y la recuperación, la interpretación escena, apoyo a la decisión clínica, el descubrimiento de conocimiento (minería "interesantes" y procesables inferencias a partir de grandes bases de datos), y otras áreas. John McCarthy identificó este problema en 1969 como el problema de calificación: para cualquier regla de sentido común de que los investigadores de IA se preocupan para representar, tiende a haber un gran número de excepciones. Los proyectos de investigación que tratan de construir una base de conocimiento completo del conocimiento de sentido común (por ejemplo, Cic ) requieren enormes cantidades de laboriosa ingeniería ontológica -ellos se debe construir, con la mano, un concepto complicado a la vez. Al igual que con el problema relacionado de razonamiento sub-simbólica, se espera que situado AI , inteligencia computacional , o AI estadística proporcionarán formas de representar este tipo de conocimiento. Que necesitan una manera de visualizar el futuro, una representación del estado del mundo y ser capaz de hacer predicciones acerca de cómo sus acciones se cambian y sean capaces de tomar decisiones que maximicen la utilidad (o "valor") de opciones disponibles . En los problemas de planificación clásica, el agente puede asumir que es el único sistema que actúa en el mundo, que permite al agente para estar seguro de las consecuencias de sus acciones. Aprendizaje
+Artículo principal: El aprendizaje automático
+
+aprendizaje automático, un concepto fundamental de la investigación en IA desde el inicio del campo, es el estudio de algoritmos informáticos que mejoran automáticamente a través de la experiencia. Los dos clasificadores y los alumnos de regresión pueden ser vistos como "aproximadores función" tratando de aprender una función (posiblemente implícita) desconocido; por ejemplo, un clasificador de correo no deseado puede ser visto como el aprendizaje de una función que mapea en el texto de un correo electrónico a una de dos categorías, "correo no deseado" o "no spam". La teoría del aprendizaje computacional puede evaluar por los alumnos de la complejidad computacional , por la complejidad de la muestra (la cantidad de datos que se requiere), o por otros conceptos de optimización . Una suficientemente potente sistema de procesamiento de lenguaje natural permitiría a las interfaces de usuario de lenguaje natural y la adquisición de conocimientos directamente de fuentes escritas humanos, tales como textos de agencias de noticias. Los enfoques modernos de PNL estadísticos pueden combinar todas estas estrategias, así como los demás, y con frecuencia conseguir una precisión aceptable a nivel de página o un párrafo, pero seguirá careciendo de la comprensión semántica requerida para clasificar bien frases aisladas. Además de las dificultades habituales con la codificación semántica conocimiento de sentido común, semántica existente PNL veces escalas demasiado mal para ser viable en aplicaciones comerciales. Percepción
+Artículos principales: la percepción de la máquina , la visión por ordenador y reconocimiento de voz
+
+
+ 
+
+La detección de características (en la foto: la detección de bordes ) ayuda a AI componer estructuras abstractas informativos de los datos en bruto. Percepción de la máquina es la capacidad de utilizar entrada de los sensores (tales como cámaras (espectro visible o infrarrojo), micrófonos, señales inalámbricas, y activa lidar , sonar, de radar, y sensores táctiles ) para deducir los aspectos del mundo. Dicha entrada es generalmente ambigua; un gigante, peatonal cincuenta metros de altura lejos puede producir exactamente los mismos pixeles como un peatón de tamaño normal cercano, lo que requiere la AI para juzgar la probabilidad relativa y razonabilidad de interpretaciones diferentes, por ejemplo mediante el uso de su "modelo de objeto" para evaluar que no existen los peatones de cincuenta metros. Avanzados brazos robóticos y otros robots industriales , ampliamente utilizado en las fábricas modernas, pueden aprender de la experiencia de cómo se mueva de manera eficiente a pesar de la presencia de la fricción y el deslizamiento de engranajes. Un robot móvil moderno, cuando se le da un ambiente pequeño, estático, y visible, se puede determinar fácilmente su ubicación y el mapa de su entorno; sin embargo, entornos dinámicos, tales como (en endoscopia ) el interior del cuerpo de la respiración de un paciente, suponen un mayor reto. La paradoja de Moravec generaliza que las habilidades sensoriomotoras de bajo nivel que los humanos dan por sentado son, counterintuitively, difíciles de programar en un robot; la paradoja es el nombre de Hans Moravec , quien declaró en 1988 que "es relativamente fácil de hacer que los ordenadores muestran un rendimiento de nivel adulto en las pruebas de inteligencia o jugar damas y difícil o imposible para darles las habilidades de un año de edad, cuando se viene a la percepción y la movilidad". Inteligencia social
+Artículo principal: La computación afectiva
+
+
+ 
+
+Kismet , un robot con habilidades sociales rudimentarios
+
+La paradoja de Moravec se puede extender a muchas formas de inteligencia social. Éxitos moderados relacionados con la informática afectiva incluyen textual análisis de sentimientos y, más recientemente, multimodal afectar análisis (véase análisis de sentimientos multimodal ), en la que AI clasifica los afectos mostrado por un sujeto grabadas en vídeo. A la larga, las habilidades sociales y la comprensión de la emoción humana y la teoría de juegos serían valiosos a un agente social. Del mismo modo, algunos asistentes virtuales están programados para hablar coloquial o incluso a bromear con humor; esto tiende a dar a los usuarios ingenuos una concepción realista de cómo los agentes informáticos inteligentes existentes son en realidad. Inteligencia general
+Artículos principales: inteligencia general artificial y ia completo
+
+Históricamente, proyectos como la base de conocimientos Cic (1984-) y la japonesa masiva quinta generación de sistemas informáticos iniciativa (1982-1992) intentaron cubrir la amplitud de la cognición humana. Hoy en día, la gran mayoría de los investigadores actuales AI trabajar en cambio en las aplicaciones manejables "estrechas AI" (tales como diagnóstico médico o la navegación en automóviles). Muchos investigadores predicen que este tipo de trabajo "estrecha AI" en diferentes dominios individuales, finalmente, será incorporado en una máquina con inteligencia general artificial (AGI), la combinación de la mayor parte de las habilidades estrechas mencionadas en este artículo y en algún momento incluso superior a la capacidad humana en la mayoría o todas estas áreas. Un ejemplo de alto perfil es que DeepMind en la década de 2010 desarrolló una "inteligencia artificial generalizado" que podría aprender muchas diversas Atari juegos por su cuenta, y más tarde desarrolló una variante del sistema que tiene éxito en el aprendizaje secuencial . Además de la transferencia del aprendizaje , hipotéticos avances AGI podrían incluir el desarrollo de arquitecturas reflectantes que pueden participar en la toma de metareasoning teórico, y encontrar la manera de "sorber" una amplia base de conocimientos de toda la no estructurada Web . Algunos argumentan que una especie de (actualmente no descubierta) conceptualmente sencillo, pero matemáticamente difícil, "Maestro Algoritmo" podría conducir a AGI. Por último, algunos enfoques "emergentes" miran a la simulación de la inteligencia humana muy de cerca, y creen que antropomórficas características como un cerebro artificial o simulada desarrollo de los niños pueden alcanzar algún día un punto crítico en el que emerge la inteligencia general. Muchos de los problemas en este artículo también puede requerir la inteligencia general, si las máquinas son para resolver los problemas, así como las personas hacen. Por ejemplo, las tareas sencillas, incluso específicos, como la traducción automática , requieren que una máquina de leer y escribir en ambos idiomas ( PNL ), sigue el argumento del autor ( razón ), saber qué se está hablando ( conocimiento ), y la reproducción fiel original del autor intención ( inteligencia social ). Un problema como la traducción automática se considera " ia completo ", porque todos estos problemas tienen que ser resueltos de forma simultánea con el fin de alcanzar un rendimiento a nivel de máquina humana. La cibernética y la simulación del cerebro
+Artículos principales: la cibernética y la neurociencia computacional
+
+En los años 1940 y 1950, una serie de investigadores exploró la relación entre la neurobiología , teoría de la información y la cibernética . Algunos de ellos construyeron máquinas que utilizan las redes electrónicas para exhibir la inteligencia rudimentaria, como W. Grey Walter 's tortugas y la Johns Hopkins bestia . Simbólico
+Artículo principal: IA simbólica
+
+Cuando el acceso a las computadoras digitales se hizo posible en el medio de 1950, la investigación en IA comenzó a explorar la posibilidad de que la inteligencia humana se podría reducir a la manipulación de símbolos. La investigación se centró en tres instituciones: la Carnegie Mellon University , Stanford y MIT , y como se describe a continuación, cada uno desarrolló su propio estilo de investigación. estimulación cognitiva
+El economista Herbert Simon y Allen Newell estudiaron las habilidades de resolución de problemas humanos e intentaron formalizar ellos, y su trabajo sentó las bases del campo de la inteligencia artificial, así como la ciencia cognitiva , la investigación de operaciones y gestión de la ciencia . La lógica de base
+A diferencia de Simon y Newell, John McCarthy sintió que las máquinas no necesitan para simular el pensamiento humano, sino que deben tratar de encontrar la esencia del razonamiento abstracto y la resolución de problemas, independientemente de si las personas utilizan los mismos algoritmos. Su laboratorio de Stanford ( SAIL ) se centró en el uso formal de la lógica para resolver una amplia variedad de problemas, incluyendo la representación del conocimiento , la planificación y el aprendizaje . Con bases de conocimiento (como Doug Lenat 's Cic ) son un ejemplo de 'desaliñado' AI, ya que deben ser construidos a mano, un concepto complicado a la vez. Esta "revolución del conocimiento" llevado al desarrollo y despliegue de sistemas expertos (introducidas por Edward Feigenbaum ), la primera forma verdaderamente exitoso de software de inteligencia artificial. Componente clave en arhitecute sistema para todos los sistemas expertos es la base de conocimientos, que almacena datos y reglas que ilustra AI. Sub-simbólica
+Por la década de 1980, los avances en IA simbólica parecía estancarse y muchos creyeron que los sistemas simbólicos nunca serían capaces de imitar todos los procesos de la cognición humana, especialmente la percepción , la robótica , el aprendizaje y el reconocimiento de patrones . inteligencia encarnada
+Esto incluye encarnado , situada , basada en el comportamiento , y la nouvelle AI . Los investigadores del campo relacionado de la robótica , como Rodney Brooks , rechazaron IA simbólica y se centró en los problemas de ingeniería básicos que permitirían los robots se muevan y sobreviven. Esto coincidió con el desarrollo de la tesis mente encarnada en el campo relacionado de la ciencia cognitiva : la idea de que se requieren los aspectos del cuerpo (tales como el movimiento, la percepción y visualización) para una mayor inteligencia. Dentro de la robótica de desarrollo , enfoques de aprendizaje de desarrollo se elaboran para permitir a los robots que se acumulen nuevos repertorios de habilidades a través de la auto-exploración autónoma, interacción social con los maestros humanos, y el uso de mecanismos de orientación (aprendizaje activo, la maduración, las sinergias de motor, etc.). Las redes neuronales artificiales son un ejemplo de la computación suave -ellos son soluciones a los problemas que no pueden resolverse con certeza lógica completa, y donde una solución aproximada es a menudo suficiente. Otros computación blanda enfoques de AI incluyen sistemas difusos , la computación evolutiva y muchas herramientas estadísticas. aprendizaje estadístico
+Gran parte de la BAIA tradicional se atascaron en ad hoc parches para la computación simbólica que trabajaron en sus propios modelos de juguetes, pero no pudo generalizar los resultados del mundo real. Sin embargo, alrededor de la década de 1990, los investigadores de IA adoptaron herramientas matemáticas sofisticadas, tales como los modelos ocultos de Markov (HMM), teoría de la información , y bayesiano normativa teoría de la decisión de comparar o unificar las arquitecturas de la competencia. El lenguaje matemático compartida permite un alto nivel de colaboración con los campos más establecidos (como las matemáticas , la economía o la investigación de operaciones ). En comparación con la BAIA, las nuevas técnicas de aprendizaje "estadística", como HMM y redes neuronales fueron ganando mayores niveles de precisión en muchos ámbitos prácticos tales como la minería de datos , sin necesidad de adquirir necesariamente la comprensión semántica de los conjuntos de datos. Hoy en día resultados de los experimentos son a menudo rigurosamente medible, y son a veces (con dificultad) reproducible. Diferentes técnicas de aprendizaje estadístico tienen diferentes limitaciones; por ejemplo, HMM básica no puede modelar las posibles combinaciones infinitas de lenguaje natural. En la investigación AGI, algunos expertos advierten contra la excesiva dependencia de aprendizaje estadístico, y argumentan que la continuación de la investigación en la BAIA todavía será necesario para alcanzar la inteligencia general. Los agentes más complicados son los seres humanos y las organizaciones de los seres humanos (por ejemplo, empresas ). El paradigma permite a los investigadores comparar directamente o incluso combinar diferentes enfoques a problemas aislados, preguntando qué agente es el mejor en la maximización de una determinada "función objetivo". Un agente que resuelve un problema específico puede utilizar cualquier método que funciona-algunos agentes son simbólicas y lógico, algunos son sub-simbólica redes neuronales artificiales y otros pueden utilizar nuevos enfoques. La construcción de un agente completa requiere que los investigadores para hacer frente a los problemas reales de la integración; por ejemplo, porque los sistemas sensoriales dan información incierta por el medio ambiente, los sistemas de planificación deben ser capaces de funcionar en presencia de incertidumbre. Algunas arquitecturas cognitivas están hechos a medida para resolver un problema estrecha; otros, tales como Soar , están diseñados para imitar la cognición humana y para proporcionar una idea de la inteligencia general. Búsqueda y optimización
+Artículos principales: algoritmo de búsqueda , optimización matemática y la computación evolutiva
+
+Muchos problemas en la IA se pueden resolver en la teoría de forma inteligente buscando a través de muchas soluciones posibles: Razonamiento puede reducirse a realizar una búsqueda. Por ejemplo, la prueba lógica se puede ver como la búsqueda de un camino que conduce de premisas a conclusiones , donde cada paso es la aplicación de una regla de inferencia . Planificación algoritmos de búsqueda a través de árboles de objetivos y sub-objetivos, tratando de encontrar un camino hacia una meta objetivo, un proceso llamado de medios y fines de análisis . Para muchos problemas, es posible iniciar la búsqueda con alguna forma de una conjetura y luego refinar la conjetura de forma incremental hasta que no haya más opciones se pueden hacer. Estos algoritmos se pueden visualizar como ciegos subida de pendientes : comenzamos la búsqueda en un punto aleatorio en el paisaje, y luego, mediante saltos o pasos, que se mantienen en movimiento nuestra suposición cuesta arriba, hasta llegar a la cima. Por ejemplo, pueden empezar con una población de organismos (las conjeturas) y luego permitir que mutan y se recombinan, seleccionando sólo los más aptos para sobrevivir cada generación (refinando las conjeturas). Por otra parte, los procesos de búsqueda distribuidos pueden coordinar a través de la inteligencia de enjambre algoritmos. Lógica
+Artículos principales: La programación lógica y razonamiento automatizado
+
+La lógica se utiliza para la representación del conocimiento y la resolución de problemas, pero se puede aplicar a otros problemas también. Teoría de conjuntos difusos asigna un "grado de verdad" (entre 0 y 1) a las declaraciones vagas como "Alicia es viejo" (o rico, alto o bajo, o con hambre) que son demasiado imprecisos para lingüísticamente ser completamente verdadero o falso. La lógica difusa se utiliza con éxito en los sistemas de control para permitir a los expertos contribuyen reglas vagas tales como "si no está cerca de la estación de destino y se mueve rápidamente, aumentar la presión de los frenos del tren"; estas normas vagas y luego se pueden refinar numéricamente dentro del sistema. Varias extensiones de la lógica se han diseñado para manejar dominios específicos de conocimiento , tales como: Descripción lógicas ; cálculo situación , cálculo evento y cálculo fluidez (para la representación de eventos y tiempo); cálculo causal ; cálculo de creencias; y lógicas modales . métodos probabilísticos para el razonamiento incierto
+Artículos principales: red bayesiana , Ocultos de Markov modelo , filtro de Kalman , filtro de partículas , la teoría de decisión , y la teoría de la utilidad
+
+
+ 
+Expectativa de maximización agrupación de Old Faithful datos erupción comienza a partir de una conjetura al azar, pero luego converge con éxito en una agrupación precisa de los dos modos físicamente distintos de erupción. Muchos problemas en la IA (en el razonamiento, la planificación, el aprendizaje, la percepción y robótica) requieren el agente de operar con información incompleta o incierta. Redes bayesianas son una herramienta muy general que puede ser utilizado para un gran número de problemas: el razonamiento (utilizando la inferencia bayesiana algoritmo), el aprendizaje (utilizando el algoritmo de expectativa de maximización ), planificación (utilizando redes de decisión ) y la percepción (utilizando redes bayesianas dinámicas ). Algoritmos de probabilidad también se pueden utilizar para el filtrado, la predicción, el alisado y la búsqueda de explicaciones para los flujos de datos, ayudando a la percepción de los sistemas para analizar los procesos que ocurren en el tiempo (por ejemplo, los modelos ocultos de Markov o filtros de Kalman ). Gráficos complicados con diamantes u otras "loops" (no dirigidos ciclos ) pueden requerir un método sofisticado tales como la cadena de Markov Monte Carlo , que se extiende un conjunto de caminantes al azar a lo largo de la red bayesiana y los intentos para converger a una evaluación de las probabilidades condicionales. Herramientas matemáticas precisas han sido desarrollados para analizar la forma en que un agente puede tomar decisiones y planificar, utilizando la teoría de decisión , análisis de decisión , y la teoría del valor de información . Clasificadores y métodos de aprendizaje estadístico
+Artículos principales: Clasificador (Matemáticas) , la clasificación de Estadística y aprendizaje automático
+
+Las aplicaciones más sencillas de IA se pueden dividir en dos tipos: los clasificadores ( "si es brillante a continuación diamante") y los controladores ( "si es brillante, luego tome"). Controladores hacen, sin embargo, también clasifican condiciones antes de inferir las acciones, y por lo tanto la clasificación constituye una parte central de muchos sistemas de inteligencia artificial. Otros clasificadores ampliamente utilizados son la red neuronal , k-más cercano algoritmo vecino , núcleo métodos tales como la máquina de vectores de soporte (SVM), modelo de mezcla gaussiana , y la extremadamente popular ingenuo clasificador de Bayes . De lo contrario, si no hay un modelo juego está disponible, y si la precisión (en lugar de la velocidad o la escalabilidad) es la única preocupación, la sabiduría convencional es que los clasificadores discriminativos (especialmente SVM) tienden a ser más precisa que los clasificadores basados en modelos tales como "naive Bayes" en la mayoría de los conjuntos de datos prácticos. Redes neuronales artificiales
+Artículos principales: red neuronal artificial y Conexionismo
+
+
+ 
+Una red neuronal es un grupo interconectado de nodos, similar a la vasta red de neuronas en el cerebro humano . Un simple "neurona" N acepta la entrada de múltiples otras neuronas, cada uno de los cuales, cuando se activa (o "disparado"), "voto" ponderado para o en contra de si neurona N debe en sí activar. El aprendizaje requiere un algoritmo para ajustar estos pesos en base a los datos de entrenamiento; un simple algoritmo (denominado " fuego juntos, alambre juntos ") es para aumentar el peso entre dos neuronas conectadas cuando la activación de uno desencadena la activación exitosa de otro. Las neuronas tienen un espectro continuo de la activación; Además, las neuronas pueden procesar entradas de una manera no lineal en lugar de un peso de votos simples. Modernas redes neuronales pueden aprender dos funciones continuas y, sorprendentemente, las operaciones lógicas digitales. En la década de 2010, los avances en las redes neuronales utilizando el aprendizaje profundo empuje AI en la conciencia pública generalizada y ha contribuido a un enorme cambio ascendente en el gasto corporativo AI; por ejemplo, relacionados con AI- M & A en 2017 fue de más de 25 veces mayor que en 2015. El estudio de los no-aprendizaje redes neuronales artificiales se inició en la década anterior fue fundada el campo de la investigación en IA, en la obra de Walter Pitts y Warren McCullouch . Las redes neuronales se pueden aplicar al problema de control inteligente (para la robótica) o de aprendizaje , utilizando técnicas tales como el aprendizaje de Hebb ( "fuego juntos, alambre juntos"), GMDH o aprendizaje competitivo . Hoy en día, las redes neuronales son a menudo entrenados por la propagación hacia atrás algoritmo, que había estado presente desde 1970 como el modo inverso de la diferenciación automática publicado por Seppo Linnainmaa , y se introdujo a las redes neuronales por Paul Werbos . Sin embargo, algunos grupos de investigación, tales como Uber , argumentan que sencilla neuroevolución para mutar nuevas topologías de redes neuronales y los pesos puede ser competitivo con las aproximaciones de descenso de gradiente sofisticados. Por ejemplo, una red de alimentación directa con seis capas ocultas puede aprender una cadena causal de siete enlace (seis capas ocultas + capa de salida) y tiene un "camino de asignación de crédito" (CAP) profundidad de siete. El aprendizaje profundo ha transformado muchos subcampos importantes de la inteligencia artificial, incluyendo la visión artificial , reconocimiento de voz , procesamiento del lenguaje natural y otros. De acuerdo con una descripción, la expresión "aprendizaje profundo" fue introducido a la máquina de aprendizaje de la comunidad por Rina Dechter en 1986 y ganó fuerza después de Igor Aizenberg y sus colegas lo introdujo en redes neuronales artificiales en 2000. En 2006, una publicación de Geoffrey Hinton y Ruslan Salakhutdinov introdujo otra forma de pre-formación a muchas capas redes feedforward neuronales (FNNs) una capa a la vez, el tratamiento de cada capa a su vez como un sin supervisión  máquina de Boltzmann restringido , a continuación, utilizando supervisada  backpropagation para sintonia FINA. Al igual que en las redes neuronales artificiales poco profundos, las redes neuronales profundas pueden modelar relaciones no lineales complejas. En los últimos años, los avances en ambos algoritmos de aprendizaje automático y equipos informáticos han dado lugar a métodos más eficientes para la formación de redes neuronales profundos que contienen muchas capas de unidades ocultas no lineales y una capa de salida muy grande. El aprendizaje profundo utiliza a menudo redes neuronales convolucionales (CNNs), cuyos orígenes se remontan a la Neocognitrón introducido por Kunihiko Fukushima en 1980. CNNs con 12 capas convolucionales se utiliza en conjunción con el aprendizaje por refuerzo por "de Deepmind AlphaGo Lee", el programa que se batió en la parte superior Go campeón en 2016.
+redes neuronales recurrentes profundas
+Artículo principal: redes neuronales recurrentes
+
+Desde el principio, también se aplicó el aprendizaje profundo para secuenciar el aprendizaje con redes neuronales recurrentes (RNNs) que están en Turing teoría completa y se pueden ejecutar programas arbitrarios para procesar secuencias arbitrarias de los insumos. La profundidad de un RNN es ilimitado y depende de la longitud de su secuencia de entrada; por lo tanto, un RNN es un ejemplo de aprendizaje profundo. En 1992, se demostró que el pre-entrenamiento no supervisado de una pila de redes neuronales recurrentes puede acelerar el aprendizaje supervisado subsiguiente de problemas secuenciales profundas. evaluar el progreso
+Más información: El progreso en la inteligencia artificial y de Concursos y premios en la inteligencia artificial
+
+AI, como la electricidad o la máquina de vapor, es una tecnología de propósito general. Si bien los proyectos tales como AlphaZero han tenido éxito en la generación de su propio conocimiento a partir de cero, muchos otros proyectos de aprendizaje automático requieren grandes conjuntos de datos de entrenamiento. Investigador Andrew Ng ha sugerido, como una "regla de oro muy imperfecto", que "casi cualquier cosa que un humano típico puede hacer con menos de un segundo de pensamiento mental, es probable que ahora o en el futuro cercano podemos automatizar el uso de AI." Hay muchos concursos y premios, como el Desafío Imagenet , para promover la investigación en inteligencia artificial. Las áreas más comunes de la competencia incluyen máquina de inteligencia general, el comportamiento de conversación, de minería de datos, coches robóticos , y fútbol de robots, así como juegos convencionales. Propuestas pruebas de inteligencia "universal" tienen como objetivo comparar qué tan bien las máquinas, los seres humanos, e incluso los animales no humanos realizan en conjuntos de problemas que son más genérica posible. En casos extremos, el conjunto de pruebas puede contener todos los problemas posibles, ponderada por la complejidad de Kolmogorov ; Por desgracia, estos conjuntos de problemas tienden a estar dominados por los ejercicios de patrones de coincidencia empobrecidas donde un AI sintonizado puede superar fácilmente los niveles de rendimiento humano. Con frecuencia, cuando una técnica alcanza su uso corriente, que ya no se considera la inteligencia artificial; este fenómeno se describe como el efecto de la IA . Ejemplos de alto perfil de la IA incluyen vehículos autónomos (tales como aviones y coches de auto-conducción ), el diagnóstico médico, la creación de arte (como la poesía), la demostración de teoremas matemáticos, juegos (como el ajedrez o Ir), motores de búsqueda (por ejemplo, la búsqueda de google ), asistentes de línea (como Siri ), reconocimiento de imágenes en las fotografías, filtrado de correo no deseado, la predicción de retrasos en los vuelos, la predicción de las decisiones judiciales y la orientación de anuncios en línea. Con los sitios de medios sociales superando a la televisión como una fuente de noticias para los jóvenes y las organizaciones de noticias cada vez que dependen de las plataformas de medios sociales para generar la distribución, los editores más importantes ahora utilizan la tecnología de inteligencia artificial (AI) para publicar historias de manera más eficaz y generar un mayor volumen de tráfico. En 2016, un estudio innovador en California encontró que una fórmula matemática desarrollada con la ayuda de AI determinó correctamente la dosis exacta de fármacos inmunosupresores para dar a los pacientes de órganos. De rayos X de una mano, con cálculo automático de la edad ósea por los programas informáticos
+
+La inteligencia artificial se está rompiendo en la industria de la salud, ayudando a los médicos. Otro estudio es el uso de la inteligencia artificial para tratar de controlar múltiples pacientes de alto riesgo, y esto se hace preguntando a cada paciente numerosas preguntas basadas en datos obtenidos de médico en vivo a las interacciones de los pacientes. IBM ha creado su propio equipo de inteligencia artificial, el IBM Watson , que ha vencido a la inteligencia humana (en algunos niveles). Finanzas y economía
+Las instituciones financieras han utilizado durante mucho tiempo de redes neuronales artificiales sistemas para detectar cargas o reclamaciones fuera de la norma, marcar estos para la investigación humana. Los bancos utilizan sistemas de inteligencia artificial hoy para organizar las operaciones, mantener la contabilidad, invertir en acciones y administrar propiedades. En agosto de 2001, los robots golpearon los seres humanos en una simulación de las operaciones financieras de la competencia. Por ejemplo, AI compra basada y plataformas de venta han cambiado la ley de la oferta y la demanda , ya que ahora es posible estimar fácilmente la demanda individualizada y las curvas de oferta y los precios de este modo individualizado. Por otra parte, las máquinas de AI reducir la asimetría de la información en el mercado y con lo que los mercados más eficiente al tiempo que reduce el volumen de las operaciones. Videojuegos
+Artículo principal: Inteligencia Artificial (videojuegos)
+
+En los videojuegos, la inteligencia artificial se utiliza rutinariamente para generar un comportamiento dinámico en un propósito personajes no jugadores (NPC). Militar
+Más información: Artificial carrera de armas de inteligencia , arma letal autónoma , y el combate vehículo aéreo no tripulado
+
+Gasto militar anual mundial en robótica aumentó de US $ 5,1 mil millones en 2010 a US $ 7.5 mil millones en 2015. En 2017, Vladimir Putin declaró que "El que se convierte en el líder en (inteligencia artificial) se convertirá en el gobernante del mundo". Por otra parte, la aplicación de la personalidad de computación modelos de IA puede ayudar a reducir el costo de las campañas de publicidad mediante la adición de orientación psicológica para la segmentación sociodemográfica o de comportamiento más tradicional. La exposición "Thinking Machines: Arte y Diseño de la era del ordenador, 1959-1989" en el MoMA ofrece una buena visión general de las aplicaciones históricas de AI para el arte, la arquitectura y el diseño. Exposiciones recientes que muestran el uso de la IA para producir arte incluyen el beneficio patrocinado por Google y la subasta en la Fundación área gris en San Francisco, donde los artistas experimentaron con el algoritmo deepdream y la exposición "no humano: arte en la época de la gripe aviar", que tuvo lugar en los Ángeles y Frankfurt en el otoño de 2017. en la primavera de 2018, la Asociación de Maquinaria de Computación dedicó un número especial a la revista el tema de las computadoras y el arte que destacan el papel de la máquina de aprendizaje en las artes. Esta conjetura fue impreso en la propuesta de la Conferencia de Dartmouth de 1956, y representa la posición de la mayoría de los investigadores que trabajan AI. argumentos Gödeliana
+
+Gödel mismo, John Lucas (en 1961) y Roger Penrose (en una discusión más detallada a partir de 1989) hicieron argumentos altamente técnicos que los matemáticos humanos pueden ver constantemente la verdad de sus propias "declaraciones Gödel" y por lo tanto tienen capacidades computacionales más allá de la mecánica máquinas de Turing. El cerebro artificial argumento
+El cerebro puede ser simulado por las máquinas y porque los cerebros son inteligentes, los cerebros simulados también debe ser inteligente; Así, las máquinas pueden ser inteligentes. Hans Moravec , Ray Kurzweil y otros han argumentado que es tecnológicamente posible copiar el cerebro directamente en hardware y software y que tal simulación será esencialmente idéntica a la original. Sin embargo, los espectadores de descuento comúnmente el comportamiento de un programa de inteligencia artificial con el argumento de que no es la inteligencia "real" después de todo; por lo tanto "real" la inteligencia es lo que la gente comportamiento inteligente puede hacer que las máquinas todavía no puede. Los científicos del futuro de Life Institute , entre otros, describen algunos de los objetivos de investigación a corto plazo para ver cómo influye en la economía AI, las leyes y la ética que están involucrados con AI y cómo minimizar los riesgos de seguridad de IA. riesgo existencial
+Artículo principal: riesgo existencial de la inteligencia general artificial
+
+El físico Stephen Hawking , Microsoft fundador , Bill Gates , y SpaceX fundador Elon Musk han expresado su preocupación por la posibilidad de que la IA podría evolucionar hasta el punto de que los seres humanos no podían controlarlo, con Hawking la teoría de que esto podría " significar el fin de la raza humana ". Una vez que los seres humanos desarrollan la inteligencia artificial, que va a despegar por sí mismo y rediseñarse a un ritmo cada vez mayor. -  Stephen Hawking
+
+
+En su libro super-inteligencia , Nick Bostrom proporciona un argumento de que la inteligencia artificial supondrá una amenaza para la humanidad. Sostiene que lo suficientemente inteligente AI, si así lo decide las acciones basadas en el logro de algún objetivo, exhibirá convergente comportamiento tales como la adquisición de recursos o protegerse de ser cerrado. Si los objetivos de este AI no reflejan humanity's-Un ejemplo es una IA dijo a computar tantos dígitos de pi como sea posible, que podría dañar a la humanidad con el fin de adquirir más recursos o prevenirse del ser cerrado, en última instancia, para alcanzar mejor su objetivo. Un grupo de titanes de la tecnología prominentes incluyendo Peter Thiel , Amazon Web Services y almizcle se han comprometido $ 1 mil millones a OpenAI , una empresa sin fines de lucro destinada a la defensa de un desarrollo responsable de AI. La opinión de expertos en el campo de la inteligencia artificial es mixta, con fracciones de tamaño considerable, tanto en cuestión y despreocupados por el riesgo de una eventual AI-sobrehumanamente capaz. En enero de 2015, Elon Musk donó diez millones de dólares para el futuro de Life Institute para financiar la investigación en la comprensión de la toma de decisiones AI. Almizcle también financia empresas que desarrollan la inteligencia artificial, tales como Google DeepMind y Vicarious a "sólo mantener un ojo en lo que está pasando con la inteligencia artificial. La devaluación de la humanidad
+Artículo principal: encendido del equipo y la razón humana
+
+Joseph Weizenbaum escribió que las aplicaciones de IA no puede, por definición, simular con éxito genuina empatía humana y que el uso de la tecnología de la IA en campos tales como el servicio al cliente o la psicoterapia era profundamente equivocada. A diferencia de las anteriores olas de automatización, muchos trabajos de clase media pueden ser eliminadas por la inteligencia artificial; The Economist afirma que "la preocupación de que la IA podía hacer para trabajos de oficina lo que la energía de vapor hizo a los obreros durante la revolución industrial" es "digno de tomar en serio". Estimaciones subjetivas del riesgo varían ampliamente; por ejemplo, Michael Osborne y Carl Benedikt Frey estiman 47% de los empleos en Estados Unidos están en "alto riesgo" de la automatización potencial, mientras que un informe de la OCDE clasifica sólo el 9% de los empleos en Estados Unidos como de "alto riesgo". Autor Martin Ford y otros van más allá y afirman que un gran número de puestos de trabajo son rutinarios, repetitivos y (a una IA) predecible; Ford advierte que estos trabajos pueden ser automatizados en el próximo par de décadas, y que muchos de los nuevos puestos de trabajo no puede ser "accesible para personas con capacidad media", incluso con el reciclaje. armas autónomas
+Ver también: arma letal autónoma
+
+Actualmente, más de 50 países están investigando los robots de batalla, incluyendo los Estados Unidos, China, Rusia y el Reino Unido. La investigación en esta área incluye la ética de la máquina , los agentes morales artificiales y amigable AI . agentes morales artificiales
+Wendell Wallach introdujo el concepto de agentes morales artificiales (AMA) en su libro Máquinas morales para Wallach, AMA se han convertido en una parte del panorama de la investigación de la inteligencia artificial como guiados por sus dos cuestiones centrales que se identifica como "¿Tiene la humanidad desea que los equipos Haciendo Moral decisiones" y "Can (Ro) contra los robots realmente ser moral". ética de las máquinas
+Artículo principal: la ética de la máquina
+
+El campo de la ética de la máquina se ocupa de dotar a las máquinas principios éticos, o un procedimiento para descubrir una manera de resolver los dilemas éticos que pueden encontrar, lo que les permite funcionar de una manera éticamente responsable a través de su propia toma de decisiones éticas. El campo se delineó en el AAAI otoño de 2005 Simposio sobre Ética de la máquina: "Las investigaciones anteriores sobre la relación entre la tecnología y la ética se ha centrado en gran medida en el uso responsable e irresponsable de la tecnología por los seres humanos, con algunas personas estar interesado en los seres cómo humanos deben el tratamiento de las máquinas. El reconocimiento de las ramificaciones éticas de comportamiento relacionados con las máquinas, así como los acontecimientos recientes y potenciales en la máquina autonomía, requieren esto. en contraste con la piratería informática, cuestiones de propiedad de software, problemas de privacidad y otros temas que normalmente se atribuyen a la ética informática, la ética de la máquina se ocupa del comportamiento de las máquinas hacia los usuarios humanos y otras máquinas. la investigación en ética de las máquinas es clave para aliviar preocupaciones con sistemas autónomos, se podría argumentar que la noción de máquinas autónomas sin tal una dimensión está en la raíz de todo temor en relación con la inteligencia artificial. Los seres humanos no deben asumir máquinas o robots nos tratarían favorablemente porque no hay a priori razones para creer que iban a ser comprensivos con nuestro sistema de moralidad, que ha evolucionado junto con nuestra biología particular (que no compartiría IA). Una de las propuestas para hacer frente a esto es para asegurar que la primera IA en general, es inteligente ' AI friendly ', y será entonces capaz de controlar posteriormente desarrollado inhibidores de la aromatasa. Creo que la preocupación se debe a un error fundamental de no distinguir la diferencia entre los recientes avances muy reales en un aspecto particular de la IA, y la magnitud y la complejidad de la construcción de la inteligencia consciente volitivo ". Conciencia
+Artículos principales: un problema duro de la conciencia y la teoría de la mente
+
+David Chalmers identificó dos problemas en la comprensión de la mente, a la que llamó los problemas "duros" y "fáciles" de la conciencia. (Tenga en cuenta que una persona que nació ciego puede saber que algo es de color rojo, sin saber lo que parece rojos similares.) Todo el mundo sabe que existe la experiencia subjetiva, porque lo hacen todos los días (por ejemplo, todas las personas videntes saben lo que se ve como rojas). A superinteligencia, hiperinteligencia, o inteligencia sobrehumana es un agente hipotético que poseer inteligencia muy superior a la de la mente humana más brillante y más dotado. singularidad tecnológica
+Artículos principales: singularidad tecnológica y la ley de Moore
+
+Si la investigación en IA fuerte produce el software lo suficientemente inteligentes, podría ser capaz de reprogramar y mejorar la misma. Singularidad tecnológica es al acelerar el progreso en tecnologías causará un efecto fuera de control en el que la inteligencia artificial superará la capacidad intelectual humana y el control, cambiando así radicalmente o incluso poner fin a la civilización. Debido a las capacidades de una inteligencia tales pueden ser imposibles de comprender, la singularidad tecnológica es una ocurrencia más allá del cual los eventos son impredecibles o incluso incomprensible. Ray Kurzweil ha utilizado la ley de Moore (que describe la mejora exponencial implacable en la tecnología digital) para calcular que las computadoras de escritorio tendrán la misma capacidad de procesamiento como los cerebros humanos para el año 2029, y predice que la singularidad se producirá en 2045. El transhumanismo
+Artículo principal: El transhumanismo
+
+Diseñador del robot Hans Moravec , en cibernética Kevin Warwick e inventor Ray Kurzweil han predicho que los seres humanos y máquinas se fusionarán en un futuro en cyborgs que son más capaz y poderoso que sea. Edward Fredkin sostiene que la "inteligencia artificial es la siguiente etapa en la evolución", una idea propuesta por primera vez por Samuel Butler 's ' Darwin entre las máquinas '(1863), y ampliado por George Dyson en su libro del mismo nombre en 1998. En ficción
+Artículo principal: La inteligencia artificial en la ficción
+
+
+ 
+La palabra "robot" fue acuñado por Karel Capek en su 1921 obra RUR , el título que significa " Los robots universales de Rossum "
+
+Seres artificiales capaces de pensamiento-aparecieron como dispositivos de narración desde la antigüedad, y han sido un tema recurrente en la ciencia ficción . Esto incluye obras como de Arthur C. Clarke y Stanley Kubrick  2001: Una odisea del espacio (ambos 1968), con HAL 9000 , el ordenador asesina a cargo del Descubrimiento Una nave espacial, así como The Terminator (1984) y The Matrix (1999 ). En contraste, los robots leales raras como Gort de El día que la Tierra se detuvo (1951) y Bishop de Extranjeros (1986) son menos prominentes en la cultura popular. Isaac Asimov introducir las Tres Leyes de la Robótica en muchos libros e historias, más notablemente la serie "Multivac" acerca de un equipo de super-inteligente del mismo nombre. Leyes de Asimov son llevados a menudo durante las discusiones laico de la ética de la máquina; mientras que los investigadores de inteligencia artificial casi todos están familiarizados con las leyes de Asimov a través de la cultura popular, por lo general consideran que las leyes inútiles por muchas razones, una de ellas es su ambigüedad. En la década de 1980, el artista Hajime Sorayama serie de atractivas Robots 's fueron pintadas y publicado en Japón que representa la forma humana real orgánica con pieles metálicas musculares realistas y más tarde 'los Gynoids' libro siguieron que fue utilizado por o encargados de la película influido incluyendo George Lucas y otra creativos. Sorayama nunca se consideró a estos robots orgánicos para ser real parte de la naturaleza, pero siempre producto no natural de la mente humana, una fantasía que existe en la mente incluso cuando se dio cuenta en forma real. Varios trabajos utilizan AI para obligarnos a hacer frente a la fundamental de la cuestión de lo que nos hace humanos, mostrándonos seres artificiales que tienen la capacidad de sentir , y por lo tanto sufrir. Ver también
+
+
+
+ portal de la inteligencia artificial
+
+razonamiento abductivo
+algoritmo de selección de comportamiento
+la automatización de procesos de negocio
+Razonamiento basado en casos
+razonamiento de sentido común
+algoritmo emergente
+La computación evolutiva
+Glosario de la inteligencia artificial
+Aprendizaje automático
+optimización matemática
+sistema multiagente
+automatización de procesos robótico
+Soft computing
+IA débil
+la computación de la personalidad
+
+
+Notas explicatorias
+referencias
+los libros de texto de AI
+
+
+
+
+Hutter, Marcus (2005). Jackson, Philip (1985). Luger, George ; Stubblefield, William (2004). Napolitano, Richard ; Jiang, Xia (2018). Nilsson, Nils (1998). Russell, Stuart J. ; Norvig, Peter (2003), la Inteligencia Artificial: Un Enfoque Moderno (2ª ed. ), Upper Saddle River, Nueva Jersey: Prentice Hall, ISBN  0-13-790395-2. Russell, Stuart J. ; Norvig, Peter (2009). ISBN  0-13-604259-7 ..
+
+Poole, David ; Mackworth, Alan ; Goebel, Randy (1998). Winston, Patrick Henry (1984). Inteligencia Artificial . Rica, Elaine (1983). Inteligencia Artificial . Bundy, Alan (1980). Poole, David ; Mackworth, Alan (2017). Historia de la IA
+
+
+
+Crevier, Daniel (1993), AI: La búsqueda tumultuoso para la Inteligencia Artificial , Nueva York, NY: BasicBooks, ISBN  0-465-02997-3. McCorduck, Pamela (2004), Máquinas que piensan (2ª ed. ), Natick, MA: AK Peters, Ltd., ISBN  1-56881-205-1. Newquist, HP (1994). Los fabricantes cerebrales: Genius, el ego y la codicia en la búsqueda de máquinas que piensan . Nilsson, Nils (2009). Nueva York: Cambridge University Press. ; Yoshida, C. (2009). Consultado el 30 de de agosto de de 2007 . Goodman, Joanna (2016). Robots en Derecho: ¿Cómo la Inteligencia Artificial se están transformando los Servicios Legales (1ª ed.). Albus, JS (2002). pp. Aleksander, Igor (1995). Archivado desde el original , el 2 de marzo de 1997.BibTex  archivados 2 marzo de 1997 en la Wayback Machine ..
+
+Bach, Joscha (2008). pp. Brooks, Rodney (1990). Archivado  (PDF) desde el original, el 9 de agosto de 2007. Brooks, RA (1991). pp. Buchanan, Bruce G. (2005). Butler, Samuel (13 de junio 1863). Clark, Jack (8 de diciembre de 2015). Después de media década de avances tranquilas en la inteligencia artificial, 2015 ha sido un año histórico. Dennett, Daniel (1991). Domingos, Pedro (2015). Dowe, DL; Hajek, AR (1997). Dreyfus, Hubert (1972). Nueva York: MIT Press. Dreyfus, Hubert ; Dreyfus, Stuart (1986). Dreyfus, Hubert (1992). Nueva York: MIT Press. Dyson, George (1998). Edelman, Gerald (23 de noviembre de 2007). Edelson, Edward (1991). Fearn, Nicholas (2007). Gladwell, Malcolm (2005). Nueva York: Little, Brown and Co. ISBN  0-316-17232-4 . Gödel, Kurt (1951). pp. Haugeland, John (1985). Hawkins, Jeff ; Blakeslee, Sandra (2005). Henderson, Marcos (24 de abril de 2007). Hernández-Orallo, José (2000). ; Dowe, DL (2010). Hinton, GE (2007). Hofstadter, Douglas (1979). Holland, John H. (1975). Consultado el 30 de de agosto de de 2007 . Hutter, M. (2012). ; Tversky, Amos (1982). Nueva York: Cambridge University Press. Kaplan, Andreas; Haenlein, Michael (2018). En las interpretaciones, Ilustraciones y las implicaciones de la Inteligencia Artificial" . Katz, Yarden (1 de noviembre de 2012). MIT Laboratorio de Inteligencia Artificial, Robótica Humanoide del Grupo . Koza, John R. (1992). Kolata, G. (1982). Kumar, Gulshan; Kumar, Krishan (2012). Kurzweil, Ray (1999). Kurzweil, Ray (2005). Lakoff, George ; Núñez, Rafael E. (2000). Langley, Pat (2011). Ley, Diane (junio de 1994). Searle, subsimbólica funcionalismo e Inteligencia sintético (informe técnico). Legg, Shane; Hutter, Marcus (15 de junio de 2007). Lenat, Douglas ; Guha, RV (1989). Lighthill, James (1973). Lucas, John (1961). Consultado el 30 de de agosto de de 2007 . ; Sandini, G. (2003). Cafetera, Meg Houston (2006). Markoff, John (16 de febrero de 2011). McCarthy, John ; Minsky, Marvin ; Rochester, Nathan ; Shannon, Claude (1955). Consultado el 30 de de agosto de de 2007 ..
+
+McCarthy, John ; Hayes, PJ (1969). Consultado el 30 de de agosto de de 2007 . McCarthy, John (12 de noviembre de 2007). Minsky, Marvin (1967). Minsky, Marvin (2006). Moravec, Hans (1988). Norvig, Pedro (25 de junio de 2012). Needham, Joseph (1986). Cuevas Books Ltd.
+
+
+Newell, Allen ; Simon, HA (1976). 19 (3): 113-126. doi : 10.1145 / 360.018,360022 . Archivado desde el original , el 7 de octubre de 2008..
+
+Nilsson, Nils (1983). O'Brien, James; Marakas, George (2011). O'Connor, Kathleen Malone (1994). Penrose, Roger (1989). ; Langdon, WB; McPhee, NF (2008). Rajani, Sandeep (2011). Ronald, EMA y Sipper, M.   La inteligencia no es suficiente: En la socialización de máquinas parlantes, mentes y máquinas , vol. Searle, John (1980). Searle, John (1999). Shapiro, Stuart C. (1992). "Inteligencia artificial". En Shapiro, Stuart C. Enciclopedia de la Inteligencia Artificial  (PDF) (2ª ed.). pp. Simon, HA (1965). Skillings, Jonathan (3 de julio de 2006). Solomonoff, Ray (1956). Dartmouth Conferencia de Investigación de Verano sobre Inteligencia Artificial - a través de std.com, PDF escaneado copia del original.Más tarde publicado como Solomonoff, Ray (1957). Tao, Jianhua; Tan, Tieniu (2005). pp. Tecuci, Gheorghe (marzo-abril 2012). "Inteligencia artificial". Thro, Ellen (1993). Turing, Alan (octubre de 1950), "Maquinaria de Computación e Inteligencia", Mente , LIX (236): 433-460, doi : 10.1093 / mente / LIX.236.433 , ISSN  0026-4423.
+
+van der Walt, Christiaan; Bernard, Etienne (2006). Vinge, Vernor (1993). Wason, PC ; Shapiro, D. (1966). Weizenbaum, José (1976). ; Thelen, E. (2001). 291 (5,504): 599-600. doi : 10.1126 / science.291.5504.599   - a través de msu.edu. TechCast serie de artículos, John Sagi, "La conciencia Framing"
+
+
+Boden, Margaret , Mente Como la máquina , Oxford University Press , 2006
+
+Domingos, Pedro , "Nuestra digital Dobles: AI servirá nuestra especie, lo controla", Scientific American , vol. 3 (septiembre de 2018), pp. Gopnik, Alison , "Hacer Más AI humana: la inteligencia artificial ha sido escenario de un renacimiento comenzando a incorporar lo que sabemos acerca de cómo aprenden los niños", Scientific American , vol. 316, no. 6 (junio de 2017), pp. : Los investigadores Am I humanos necesitan nuevas formas de distinguir la inteligencia artificial de la especie natural", Scientific American , vol. 316, no. 3 (marzo de 2017), pp. Múltiples pruebas de eficacia de inteligencia artificial son necesarios porque, "al igual que no hay una sola prueba de atletismo destreza, no puede haber una prueba definitiva de la inteligencia ." Un ejemplo destacado es conocido como el "problema de desambiguación pronombre": una máquina no tiene manera de determinar a quién o qué un pronombre en una frase tal como "él", "ella" o "es" -se refiere. El pleno empleo, renta básica, y la Democracia Económica'(2018) SSRN, parte 2 (3) . Forbes de junio de 2009
+
+Raphael, Bertram (1976). Serenko, Alexander (2010). Serenko, Alexander; Michael Dohan (2011). "Comparación de la encuesta y el impacto de las citas experto en métodos de clasificación diario: Un ejemplo del campo de la Inteligencia Artificial"  (PDF) . ), Arquitecturas Computacionales: Integración de los nervios y los procesos simbólicos . - Una introducción a la inteligencia artificial por John McCarthy -a co-fundador del campo, y la persona que acuñó el término. AI en Curlie
+
+
+AITopics - Un gran directorio de enlaces y otros recursos mantenidos por la Asociación para el Avance de la Inteligencia Artificial , la organización líder de los investigadores de IA académicas. Inteligencia Artificial , la BBC Radio 4 discusión con John Agar, Alison Adam & Igor Aleksander ( En Nuestro Tiempo , 8 de diciembre, 2005)
+
+
+
+
+
+<img src="https://en.wikipedia.org//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;">
+
+
+
+
+
+
+This page is based on the copyrighted Wikipedia article "Artificial_intelligence" (Authors); it is used under the Creative Commons Attribution-ShareAlike 3.0 Unported License.

@@ -11,6 +11,9 @@ sys.path.append("..")
 from Dialogos.DialogoAviso.DialogoAvisos import Ui_DialogAviso
 from Backend.Resumen import Resumen
 from Backend.Html2Text import Html2Text
+import os
+from datetime import datetime
+import time
 
 
 class Ui_MainWindow_URL(object):
@@ -39,16 +42,19 @@ class Ui_MainWindow_URL(object):
         self.label_Resumen_Obtenido.setObjectName("label_Resumen_Obtenido")
         self.textEdit_Entrada_de_texto = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit_Entrada_de_texto.setGeometry(QtCore.QRect(170, 90, 441, 21))
-        self.textEdit_Entrada_de_texto.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.textEdit_Entrada_de_texto.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);")
         self.textEdit_Entrada_de_texto.setObjectName("textEdit_Entrada_de_texto")
         self.textEdit_Salida_Resumen_Obtenido = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit_Salida_Resumen_Obtenido.setGeometry(QtCore.QRect(180, 400, 441, 151))
-        self.textEdit_Salida_Resumen_Obtenido.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.textEdit_Salida_Resumen_Obtenido.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);")
         self.textEdit_Salida_Resumen_Obtenido.setReadOnly(False)
         self.textEdit_Salida_Resumen_Obtenido.setObjectName("textEdit_Salida_Resumen_Obtenido")
         self.textEdit_Salida_Tabla_Frecuencias = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit_Salida_Tabla_Frecuencias.setGeometry(QtCore.QRect(70, 230, 311, 131))
-        self.textEdit_Salida_Tabla_Frecuencias.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.textEdit_Salida_Tabla_Frecuencias.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);")
         self.textEdit_Salida_Tabla_Frecuencias.setReadOnly(False)
         self.textEdit_Salida_Tabla_Frecuencias.setObjectName("textEdit_Salida_Tabla_Frecuencias")
         self.label_Texto_Tabla_fr = QtWidgets.QLabel(self.centralwidget)
@@ -69,15 +75,16 @@ class Ui_MainWindow_URL(object):
         self.label_escudo_fi.setObjectName("label_escudo_fi")
         self.textEdit_Salida_Organizacion_Valorizacion = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit_Salida_Organizacion_Valorizacion.setGeometry(QtCore.QRect(420, 230, 311, 131))
-        self.textEdit_Salida_Organizacion_Valorizacion.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.textEdit_Salida_Organizacion_Valorizacion.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);")
         self.textEdit_Salida_Organizacion_Valorizacion.setReadOnly(False)
         self.textEdit_Salida_Organizacion_Valorizacion.setObjectName("textEdit_Salida_Organizacion_Valorizacion")
         self.label_Texto_Org_Y_Valorizacion = QtWidgets.QLabel(self.centralwidget)
         self.label_Texto_Org_Y_Valorizacion.setGeometry(QtCore.QRect(420, 190, 301, 31))
         self.label_Texto_Org_Y_Valorizacion.setObjectName("label_Texto_Org_Y_Valorizacion")
         self.pushButton_Limpiar_cuadros = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_Limpiar_cuadros.setGeometry(QtCore.QRect(650, 460, 91, 23))
-        self.pushButton_Limpiar_cuadros.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.pushButton_Limpiar_cuadros.setGeometry(QtCore.QRect(700, 450, 81, 23))
+        self.pushButton_Limpiar_cuadros.setStyleSheet("background-color: rgb(154, 154, 154);")
         self.pushButton_Limpiar_cuadros.setObjectName("pushButton_Limpiar_cuadros")
         MainWindow_URL.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow_URL)
@@ -89,29 +96,24 @@ class Ui_MainWindow_URL(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow_URL)
         self.statusbar.setObjectName("statusbar")
         MainWindow_URL.setStatusBar(self.statusbar)
+        self.actionGuardar_em_Archivo = QtWidgets.QAction(MainWindow_URL)
+        self.actionGuardar_em_Archivo.setObjectName("actionGuardar_em_Archivo")
+        self.menuArchivo.addAction(self.actionGuardar_em_Archivo)
         self.menubar.addAction(self.menuArchivo.menuAction())
+
+        self.retranslateUi(MainWindow_URL)
 
         self.pushButton_Obtemer_Resumen.clicked.connect(self.imprime)
         self.r1=Resumen()
-        self.url1 = Html2Text() 
-        self.retranslateUi(MainWindow_URL)
+        self.url1 = Html2Text()
         self.pushButton_Salir.clicked.connect(self.salirVolverAlMenuAnterior)
         self.pushButton_Salir.clicked.connect(MainWindow_URL.close)
         self.pushButton_Limpiar_cuadros.clicked.connect(self.limpiarCuadros)
-        #self.fecha=datetime.now()
+        self.fecha=datetime.now()
+        self.actionGuardar_em_Archivo.triggered.connect(self.guardarResumenEnArchivo)
+
         QtCore.QMetaObject.connectSlotsByName(MainWindow_URL)
 
-    def retranslateUi(self, MainWindow_URL):
-        _translate = QtCore.QCoreApplication.translate
-        MainWindow_URL.setWindowTitle(_translate("MainWindow_URL", "Resumen por URL"))
-        self.pushButton_Salir.setText(_translate("MainWindow_URL", "Salir"))
-        self.pushButton_Obtemer_Resumen.setText(_translate("MainWindow_URL", "Resumir texto"))
-        self.label_TextoIntroduce_Texto.setText(_translate("MainWindow_URL", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Introduce un URL con texto:</span></p></body></html>"))
-        self.label_Resumen_Obtenido.setText(_translate("MainWindow_URL", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Resumen obtenido:</span></p></body></html>"))
-        self.label_Texto_Tabla_fr.setText(_translate("MainWindow_URL", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Tabla de frecuencias</span></p></body></html>"))
-        self.label_titulo.setText(_translate("MainWindow_URL", "<html><head/><body><p align=\"center\"><span style=\" font-size:28pt; font-weight:600; color:#c8371a;\">Resumen</span></p></body></html>"))
-        self.label_Texto_Org_Y_Valorizacion.setText(_translate("MainWindow_URL", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Oraciones y Valorización</span></p></body></html>"))
-        self.menuArchivo.setTitle(_translate("MainWindow_URL", "Archivo"))
 
     def guardarResumenEnArchivo(self):
         tiempo_segundos = time.time()
@@ -167,6 +169,20 @@ class Ui_MainWindow_URL(object):
         self.ui0=Ui_Form_Menu_Principal()
         self.ui0.setupUi(self.ventanaMenu)
         self.ventanaMenu.show()
+
+    def retranslateUi(self, MainWindow_URL):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow_URL.setWindowTitle(_translate("MainWindow_URL", "Resumen por URL"))
+        self.pushButton_Salir.setText(_translate("MainWindow_URL", "Salir"))
+        self.pushButton_Obtemer_Resumen.setText(_translate("MainWindow_URL", "Resumir texto"))
+        self.label_TextoIntroduce_Texto.setText(_translate("MainWindow_URL", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Introduce un URL con texto:</span></p></body></html>"))
+        self.label_Resumen_Obtenido.setText(_translate("MainWindow_URL", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Resumen obtenido:</span></p></body></html>"))
+        self.label_Texto_Tabla_fr.setText(_translate("MainWindow_URL", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Tabla de frecuencias</span></p></body></html>"))
+        self.label_titulo.setText(_translate("MainWindow_URL", "<html><head/><body><p align=\"center\"><span style=\" font-size:28pt; font-weight:600; color:#c8371a;\">Resumen</span></p></body></html>"))
+        self.label_Texto_Org_Y_Valorizacion.setText(_translate("MainWindow_URL", "<html><head/><body><p><span style=\" font-size:18pt; font-weight:600; color:#ff0000;\">Oraciones y Valorización</span></p></body></html>"))
+        self.pushButton_Limpiar_cuadros.setText(_translate("MainWindow_URL", "Limpiar Cuadros"))
+        self.menuArchivo.setTitle(_translate("MainWindow_URL", "Archivo"))
+        self.actionGuardar_em_Archivo.setText(_translate("MainWindow_URL", "Guardar en Archivo"))
 
 import Logos.LogoVentanaInicio.LogoEscudoFi_rc
 import Logos.LogoVentanaInicio.LogoEscudoUNAM_rc

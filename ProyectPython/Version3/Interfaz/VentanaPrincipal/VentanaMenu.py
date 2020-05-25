@@ -44,7 +44,10 @@ class Ui_Form_Menu_Principal(object):
         self.label_escudo_unam.setObjectName("label_escudo_unam")
 
         self.pushButton_resumir_texto.clicked.connect(self.abrirVentanaPrincipal)
+        self.pushButton_resumir_texto.clicked.connect(Form_Menu_Principal.close)
+
         self.pushButton_texto_url.clicked.connect(self.abrirVentanaPrincipal_con_url)
+        self.pushButton_texto_url.clicked.connect(Form_Menu_Principal.close)
 
         self.retranslateUi(Form_Menu_Principal)
         self.pushButton_salir.clicked.connect(Form_Menu_Principal.close)
@@ -56,7 +59,6 @@ class Ui_Form_Menu_Principal(object):
         self.ui0=Ui_MainWindow()
         self.ui0.setupUi(self.ventana0)
         self.ventana0.show()
-        Form_Menu_Principal.close()
 
     def abrirVentanaPrincipal_con_url(self):
         self.ventana0=QtWidgets.QMainWindow()
@@ -64,7 +66,6 @@ class Ui_Form_Menu_Principal(object):
         self.ui0=Ui_MainWindow_URL()
         self.ui0.setupUi(self.ventana0)
         self.ventana0.show()
-        Form_Menu_Principal.close()
 
     def retranslateUi(self, Form_Menu_Principal):
         _translate = QtCore.QCoreApplication.translate

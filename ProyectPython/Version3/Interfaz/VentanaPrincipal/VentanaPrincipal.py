@@ -6,6 +6,7 @@
 #
 # WARNING! All changes made in this file will be lost!
 
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 sys.path.append("..")
@@ -41,16 +42,20 @@ class Ui_MainWindow(object):
         self.label_Resumen_Obtenido.setObjectName("label_Resumen_Obtenido")
         self.textEdit_Entrada_de_texto = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit_Entrada_de_texto.setGeometry(QtCore.QRect(170, 90, 441, 91))
-        self.textEdit_Entrada_de_texto.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.textEdit_Entrada_de_texto.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);\n"
+"")
         self.textEdit_Entrada_de_texto.setObjectName("textEdit_Entrada_de_texto")
         self.textEdit_Salida_Resumen_Obtenido = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit_Salida_Resumen_Obtenido.setGeometry(QtCore.QRect(180, 400, 441, 151))
-        self.textEdit_Salida_Resumen_Obtenido.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.textEdit_Salida_Resumen_Obtenido.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);")
         self.textEdit_Salida_Resumen_Obtenido.setReadOnly(False)
         self.textEdit_Salida_Resumen_Obtenido.setObjectName("textEdit_Salida_Resumen_Obtenido")
         self.textEdit_Salida_Tabla_Frecuencias = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit_Salida_Tabla_Frecuencias.setGeometry(QtCore.QRect(70, 230, 311, 131))
-        self.textEdit_Salida_Tabla_Frecuencias.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.textEdit_Salida_Tabla_Frecuencias.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);")
         self.textEdit_Salida_Tabla_Frecuencias.setReadOnly(False)
         self.textEdit_Salida_Tabla_Frecuencias.setObjectName("textEdit_Salida_Tabla_Frecuencias")
         self.label_Texto_Tabla_fr = QtWidgets.QLabel(self.centralwidget)
@@ -71,7 +76,8 @@ class Ui_MainWindow(object):
         self.label_escudo_fi.setObjectName("label_escudo_fi")
         self.textEdit_Salida_Organizacion_Valorizacion = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit_Salida_Organizacion_Valorizacion.setGeometry(QtCore.QRect(420, 230, 311, 131))
-        self.textEdit_Salida_Organizacion_Valorizacion.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.textEdit_Salida_Organizacion_Valorizacion.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);")
         self.textEdit_Salida_Organizacion_Valorizacion.setReadOnly(False)
         self.textEdit_Salida_Organizacion_Valorizacion.setObjectName("textEdit_Salida_Organizacion_Valorizacion")
         self.label_Texto_Org_Y_Valorizacion = QtWidgets.QLabel(self.centralwidget)
@@ -95,6 +101,7 @@ class Ui_MainWindow(object):
         self.actionGuardar.setObjectName("actionGuardar")
         self.menuArchivo.addAction(self.actionGuardar)
         self.menubar.addAction(self.menuArchivo.menuAction())
+
         self.retranslateUi(MainWindow)
 
         self.pushButton_Obtemer_Resumen.clicked.connect(self.imprime)
@@ -172,7 +179,7 @@ class Ui_MainWindow(object):
         self.pushButton_Limpiar_cuadros.setText(_translate("MainWindow", "Limpiar Cuadros"))
         self.menuArchivo.setTitle(_translate("MainWindow", "Archivo"))
         self.actionGuardar.setText(_translate("MainWindow", "Guardar en Archivo"))
-
+        
 import Logos.LogoVentanaInicio.LogoEscudoFi_rc
 import Logos.LogoVentanaInicio.LogoEscudoUNAM_rc
 

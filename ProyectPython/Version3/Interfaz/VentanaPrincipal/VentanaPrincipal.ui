@@ -98,7 +98,9 @@ background-color: qlineargradient(spread:pad, x1:0.824, y1:0.198864, x2:1, y2:0,
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_Salida_Resumen_Obtenido">
@@ -111,7 +113,8 @@ background-color: qlineargradient(spread:pad, x1:0.824, y1:0.198864, x2:1, y2:0,
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="readOnly">
      <bool>false</bool>
@@ -127,7 +130,8 @@ background-color: qlineargradient(spread:pad, x1:0.824, y1:0.198864, x2:1, y2:0,
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="readOnly">
      <bool>false</bool>
@@ -201,7 +205,8 @@ background-color: qlineargradient(spread:pad, x1:0.824, y1:0.198864, x2:1, y2:0,
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="readOnly">
      <bool>false</bool>
