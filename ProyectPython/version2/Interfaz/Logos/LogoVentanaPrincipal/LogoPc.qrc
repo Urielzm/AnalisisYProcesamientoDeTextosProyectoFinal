@@ -1,5 +1,5 @@
 <RCC>
   <qresource prefix="LogoPc">
-    <file>../../Imagenes/InterfazPrincipal/PC.png</file>
+    <file>../../Imagenes/InterfazPrincipal/PC.jpg</file>
   </qresource>
 </RCC>

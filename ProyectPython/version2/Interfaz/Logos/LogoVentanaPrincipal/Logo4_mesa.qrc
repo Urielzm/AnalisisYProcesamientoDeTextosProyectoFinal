@@ -1,5 +1,5 @@
 <RCC>
   <qresource prefix="log4m">
-    <file>../../Imagenes/InterfazPrincipal/modulo.png</file>
+    <file>../../Imagenes/InterfazPrincipal/modulo.JPG</file>
   </qresource>
 </RCC>

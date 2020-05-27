@@ -16,6 +16,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
 # Se crean 2 arreglos y 1 variable:
 
+
 # arreglo 1) - SW - configura el método de entrada o 
 #idioma en el que se 
 # van a trabajar las palabras en el metodo words de 
@@ -23,40 +24,25 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 SW = set(stopwords.words("spanish"))
 
 
+# text para definir el texto a resumir
+
+
+# arreglo 1) - SW - configura el método de entrada o idioma en el que se 
+                    # van a trabajar las palabras en el metodo words de stopwords, en este caso, Español.
+SW = set(stopwords.words("spanish"))
+
 # text para definir el texto a resumir.
-text = """Información Taxonómica
+text = """En informática , la inteligencia artificial ( IA ), a veces llamada inteligencia de máquina , es inteligencia demostrada por máquinas , en contraste con la inteligencia natural que muestran los humanos y los animales . Los principales libros de texto de IA definen el campo como el estudio de los " agentes inteligentes ": cualquier dispositivo que perciba su entorno y tome medidas que maximicen sus posibilidades de lograr con éxito sus objetivos. [1]Coloquialmente, el término "inteligencia artificial" se usa a menudo para describir máquinas (o computadoras) que imitan funciones "cognitivas" que los humanos asocian con la mente humana , como "aprendizaje" y "resolución de problemas". A medida que las máquinas se vuelven cada vez más capaces, las tareas que se consideran que requieren "inteligencia" a menudo se eliminan de la definición de IA, un fenómeno conocido como efecto de IA . [3] Una broma en el Teorema de Tesler dice que "AI es lo que no se ha hecho todavía". [4] Por ejemplo, el reconocimiento óptico de caracteres a menudo se excluye de las cosas consideradas como AI [5] , convirtiéndose en una tecnología de rutina. [6] Las capacidades modernas de la máquina generalmente clasificadas como IA incluyen la comprensión exitosa del habla humana , [7] competir al más alto nivel en los sistemas de juego estratégico (como el ajedrez y el Go)), [8] vehículos autónomos , enrutamiento inteligente en redes de entrega de contenido y simulaciones militares.La inteligencia artificial fue fundada como una disciplina académica en 1955, y en los años transcurridos desde entonces ha experimentado varias oleadas de optimismo, [9] [10] seguido por la decepción y la pérdida de fondos (conocido como un " invierno AI "), [11] [12] seguido de nuevos enfoques, éxito y financiación renovada. [10] [13] Durante la mayor parte de su historia, la investigación de IA se ha dividido en subcampos que a menudo no se comunican entre sí. [14] Estos subcampos se basan en consideraciones técnicas, como objetivos particulares (por ejemplo, " robótica " o " aprendizaje automático "), [15] el uso de herramientas particulares (" lógica"o redes neuronales artificiales ), o profundas diferencias filosóficas. [16] [17] [18] Los subcampos también se han basado en factores sociales (instituciones particulares o el trabajo de investigadores particulares). """
 
-Las diez especies que componen actualmente el género Sus se localizan principalmente en Asia, aunque el jabalí euroasiático, Sus scrofa, la especie más abundante, muestra un área de distribución histórica más amplia, que incluye Europa y el norte de África. El estudio taxonómico de la especie es complejo por la variación de caracteres debido fundamentalmente a la domesticación.
-
-Descripción
-
-Muestra la máxima altura en la región de las extremidades anteriores; el cuello es poco aparente, las orejas son pequeñas y se mantienen erguidas.
-
-Las dimensiones son muy variables; en Europa la corpulencia aumenta hacia el este, observándose los menores tamaños en el sur de la Península Ibérica y los mayores en los Cárpatos.
-
-Medidas corporales de ejemplares adultos del Montseny (Cataluña), CC: 133,0-148,0 cm (machos), 118,0-137,0 cm (hembras); C: 17,5-24,0 cm (machos), 13,0-20,0 cm (hembras); CR: 72,0-85,5 cm (machos), 71,0-73,0 cm (hembras); Ps: 60-118 kg (machos), 40-65 kg (hembras).
-
-Fórmula dentaria: 3.1.4.3/3.1.4.3. Caninos de puntas agudas y ángulos cortantes.
-
-Posee un marcado dimorfismo sexual, los machos son más corpulentos y presentan los caninos más desarrollados. Al nacer, y hasta los cuatro o cinco meses, se denominan rayones y presentan una coloración pardo clara con 11 líneas longitudinales más oscuras. Posteriormente mudan pasando a tener una coloración uniforme pardo rojiza y se denominan bermejos, hasta la siguiente muda que ocurre entre los 10 y 12 meses, cuando adquieren el pelaje de adultos, que es pardo grisáceo, con extremidades y orejas más oscuras, prácticamente negras.
-
-La especie muestra politipismo cromosómico. Número de cromosomas (2n) = 38, 37 ó 36
-
-El jabalí es el primo salvaje del cerdo doméstico. Es un animal vigoroso, de cuerpo grueso y redondo, cabeza grande y alargada terminada en largo y estrecho hocico, la jeta. Tiene las orejas grandes, enhiestas y de forma triangular. El cuerpo del jabalí está cubierto de pelo. Esta pelambre, compuesta por las cerdas -pelos largos y gruesos- y la borra -pelusa compacta y apelmazada-, presenta bastantes variaciones de color, aunque con predominio del pardo oscuro. Hay ejemplares que presentan un color grisáceo uniforme y otros que tiran más hacia el castaño rojizo. Es característico en el jabalí una franja estrecha de pelo erizable que recorre la nuca y parte del lomo.
-
-No es fácil distinguir el jabalí de la jabalina en una observación de campo. Generalmente la hembra tiene la jeta más alargada, aunque este rasgo no es definitivo. El macho posee dos colmillos que crecen continuamente, de aspecto curvado hacia atrás y que sobresalen de los labios, se llaman defensas o navajas. Las defensas de la hembra no son visibles por fuera de los labios, ya que tienen un tamaño menor.
-
-Distribución
-
-La distribución natural de la especie abarca Europa, Asia y el norte de África y ha sido introducida en el continente americano, Australia, Nueva Zelanda y en diversas islas del Pacífico. En Europa el jabalí ha experimentado durante las últimas décadas una intensa expansión, ampliando su límite de distribución septentrional hasta superar los 65º N y recolonizando zonas de las que se había extinguido, como Inglaterra, Finlandia o Suecia.
-Está presente en toda la Península Ibérica. Siendo la zona centro una de las que mayor densidad de jabalíes posee. """
 
 # arreglo 2) - words - almacena el texto en el método word_tokenize para 
                         # previamente darle valor.
 words = word_tokenize(text)
 
+
 print("TOKENIZADAS")
 print(words)
+
 
 # Se crea un diccionario para crear una tabla de frecuencias de las palabras.
 freqTable = dict()
@@ -73,6 +59,7 @@ for word in words:
 
 #Muestra la tabla de frecuencias de cada palabra.
 #freqTable
+
 
 
 print('\t\t\t********TABLA DE FRECUENCIAS ABOSULTAS*********')
@@ -102,6 +89,9 @@ print("\n")
 print("Valor mayor de frecuencia de una palabra:",m)
 print(ponderadas)
 print("\n")
+print(freqTable)
+
+
 
 
 # Crea una variable y un diccionario.
@@ -109,11 +99,17 @@ print("\n")
 # Variable sentences para almacenar las oraciones a valorizar del texto.
 sentences = sent_tokenize(text)
 
+
 print(sentences)
 
 # Diccionario sentenceValue para almacenar los valores de las oraciones.
 sentenceValue = dict()
 
+
+
+
+# Diccionario sentenceValue para almacenar los valores de las oraciones.
+sentenceValue = dict()
 
 
 #Se crea un ciclo for para recorrer las oraciones que se encuentran en el texto.
@@ -129,6 +125,7 @@ for sentence in sentences:
 #Muestra las oraciones ya valorizadas con su respectivo puntaje.
 #sentenceValue
 
+
 vals=list(sentenceValue.values())
 maxVal=max(vals)
 minVal=min(vals)
@@ -139,17 +136,27 @@ print("\n")
 print("La oracion con mayor valor tiene:",maxVal, "y el menor es:",minVal)
 print("\n")
 
+print(sentenceValue)
+
+
 # Se crea una variable donde se almacena la suma de los valores.
 sumValues = 0
 
 # Se crea un ciclo for para evaluar la oración dentro del Diccionario de las oraciones valorizadas.
 for sentence in sentenceValue:
     sumValues += sentenceValue[sentence] # Se suma 1 al valor de la Oración en su respectiva posición
+
  
 # Valor promedio de una oración desde un texto original
 average = int(sumValues/ len(sentenceValue)) # Divide la suma de valores en la total de oraciones valorizadas.
 print("Promedio",average)
 print("\n")
+
+    
+# Valor promedio de una oración desde un texto original
+average = int(sumValues/ len(sentenceValue)) # Divide la suma de valores en la total de oraciones valorizadas.
+
+
 # Se crea una variable para almacenar el resumen a imprimir.
 summary = ''
 
@@ -165,3 +172,5 @@ for sentence in sentences:
 # Se imprime el resumen.
 print('\t\t\t*******RESUMEN******')
 print("\n"+"\n"+summary)
+
+
