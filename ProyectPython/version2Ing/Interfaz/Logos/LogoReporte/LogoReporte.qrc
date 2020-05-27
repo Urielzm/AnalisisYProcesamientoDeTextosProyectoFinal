@@ -1,5 +1,0 @@
-<RCC>
-  <qresource prefix="LogoReporte">
-    <file>../../Imagenes/InterfazDeReporte/logoReporte.JPG</file>
-  </qresource>
-</RCC>
