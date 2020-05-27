@@ -131,11 +131,12 @@ for sentence in sentences:
 
 vals=list(sentenceValue.values())
 maxVal=max(vals)
+minVal=min(vals)
 print('\t\t\t********ORACIONES VALORIZADAS*********')
 print("\n")
 print(sentenceValue)
 print("\n")
-print("La oracion con mayor valor tiene:",maxVal)
+print("La oracion con mayor valor tiene:",maxVal, "y el menor es:",minVal)
 print("\n")
 
 # Se crea una variable donde se almacena la suma de los valores.
