@@ -132,7 +132,7 @@ class Ui_MainWindow_URL(object):
 
     def imprime(self):
         text = self.textEdit_Entrada_de_texto.toPlainText()
-        text = self.url1.get_full_text(text)
+        text = self.url1.get_text(text)
         if text:
             tabla_frecuencias=self.r1.tablaFrecuencias(text)
             oracionesYValorizacion=self.r1.oracionesYvalorizacion(tabla_frecuencias, text)
@@ -140,13 +140,14 @@ class Ui_MainWindow_URL(object):
             oracionesYvalorizacion_string=self.convertirAString(oracionesYValorizacion)
             #print(string)
             res =self.r1.resumir(text, oracionesYValorizacion)
+            self.textEdit_Salida_Resumen_Obtenido.setText(str(res))
+            self.textEdit_Salida_Tabla_Frecuencias.setText(str(tabla_frec_string))
+            self.textEdit_Salida_Organizacion_Valorizacion.setText(str(oracionesYvalorizacion_string))        
+            self.abrirDialogoAviso("Resumen listo")
         else:
-            res = "Error. Direccion URL no valida"
+            self.abrirDialogoAviso("Error. Direccion URL no valida")
 
-        self.textEdit_Salida_Resumen_Obtenido.setText(str(res))
-        self.textEdit_Salida_Tabla_Frecuencias.setText(str(tabla_frec_string))
-        self.textEdit_Salida_Organizacion_Valorizacion.setText(str(oracionesYvalorizacion_string))        
-        self.abrirDialogoAviso("Resumen listo")
+        
 
     def convertirAString(self, diccionario):
         string=""

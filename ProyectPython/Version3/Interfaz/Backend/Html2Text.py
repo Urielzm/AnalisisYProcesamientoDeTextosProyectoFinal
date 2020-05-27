@@ -1,6 +1,7 @@
-from requests import get
+from requests import get, head
 from bs4 import BeautifulSoup
 from requests.exceptions import ConnectionError
+from re import search, compile, escape, IGNORECASE
 
 class Html2Text(object):
     def __init__(self, url=None):
@@ -9,7 +10,11 @@ class Html2Text(object):
             to create an instance of this class
         """
         self.URL = url
+        self.response = ''
 
+    def set_url(self, url):
+        self.URL = url
+    
     def construct_headers(self, userAgent=None):
         """
             Method used to elaborate the HTTP headers to the request. Just used 2 headers.
@@ -22,38 +27,92 @@ class Html2Text(object):
 
         return headers
 
-    def make_request(self, url=None):
+    def make_request(self):
         """
             Method to do the request and create a parser instance with this
             response
         """
-        self.URL = url if url else self.URL
-        if not self.URL:
-            return 1
         
         headers = self.construct_headers()
-        resp = get(url=self.URL, headers=headers)
-        # Especify we want a HTML parse
-        parser = BeautifulSoup(resp.text, 'html.parser')
+        self.response = get(url=self.URL, headers=headers).text
 
-        return parser
-    
-    def get_full_text(self, url=None):
+    def html_to_text(self, filtered_response):
         """
             Method to get all the text in a web page. It includes tags like
             h1, h2, h3, p, pre, and anothers
         """
+        parser = BeautifulSoup(filtered_response, 'html.parser')
+        return parser.get_text()
+
+
+    def try_connection(self):
         try:
-            parser = self.make_request(url if url else None)
-            return parser.get_text()
+            head(self.URL, headers=self.construct_headers())
+            return True
+
         except ConnectionError:
+            return False
+
+    def deconstruct_response(self, resp):
+        return resp.split('\n')
+
+    def filtered_response(self):
+        #to_delete = ['href']
+        
+        response_list = self.deconstruct_response(self.response)
+
+        response = ''
+        regex = self.create_a_tags_regex()
+        regex = compile(regex)
+
+        for line in response_list:
+            find = search(regex, line)
+            if not find:
+                response += line + '\n'
+            else:
+                response += line.replace(find.group(0), '')
+
+        #print(response)
+        return response
+  
+    def remove_blank_spaces(self, text):
+        text_list = self.deconstruct_response(text)
+        
+        clear_text = ''
+        for line in text_list:
+            if line != '':
+                clear_text += line + '\n'
+
+        return clear_text
+
+    def get_text(self, url):
+        self.set_url(url)
+        if not self.try_connection():
             return None
 
+        self.make_request()
+        filtered_response = self.filtered_response()
+        text = self.html_to_text(filtered_response)
+        return self.remove_blank_spaces(text)
 
-  
+    def get_a_tags(self):
+        parser = BeautifulSoup(self.response, 'html.parser')
+        tag_list = parser.find_all('a')
+        for i in range(len(tag_list)):
+            tag_list[i] = str(tag_list[i])
+
+        return tag_list
+
+    def create_a_tags_regex(self):
+        tag_list = self.get_a_tags()
+        regex = '('
+        for element_tag in tag_list:
+            regex += element_tag + '|'
+        return regex[:-1] + ')'
 
 if __name__ == "__main__":
     p = Html2Text()
-    text =p.get_full_text('https://www.w3.sdorg/Protocols/rfc2616/rfc2616-sec14.html')
+    #print(p.get_a_tags())
+    text = p.get_text('https://esasasa.wikipedia.org/wiki/Resumen')
     print(text)
     
