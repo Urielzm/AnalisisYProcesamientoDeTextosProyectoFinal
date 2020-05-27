@@ -12,14 +12,33 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
 #nltk.download('stopwords')
 #nltk.download('punkt')
+
+from unidecode import unidecode
+from re import match, compile
+
 class Resumen(object):
+
+    def __init__(self):
+        self.regex = compile('([^\d\W]+)')
+        self.stop_words = None
+
+    def pre_procesamiento(self, word):
+        """
+		Metodo para filtrar cadenas que no son palabras, tal
+		como numeros, signos, etc.
+		Tambien filtra palabras que se encuentran contenidas en
+		stopwords
+        """
+        m = match(self.regex, unidecode(word))
+        return word if (m and word not in self.stop_words) else None
 
     def tablaFrecuencias(self, texto):
         # Se crean 2 arreglos y 1 variable:
 
-        # arreglo 1) - SW - configura el método de entrada o idioma en el que se 
+        # arreglo 1) - self.stop_words - configura el método de entrada o idioma en el que se 
         # van a trabajar las palabras en el metodo words de stopwords, en este caso, Español.
-        SW = set(stopwords.words("spanish"))
+        #SW = set(stopwords.words("spanish"))
+        self.stop_words = set(stopwords.words("spanish"))
 
         # text para definir el texto a resumir.
         text=texto
@@ -34,12 +53,13 @@ class Resumen(object):
         # Con un for se recorre el texto y se almacena en la tabla.
         for word in words:
             word = word.lower() # setea las palabras en minúscula y las almacena en word.
-            if word in SW: 
-                continue # Si la palabra se encuentra en SW, continua con el ciclo.
-            if word in freqTable: # Si la palabra ya se encuentra en la tabla frecuencia,
-                freqTable[word] += 1 # Suma 1 a la posición donde se encuentra la palabra.
-            else:
-                freqTable[word] = 1 # Sino, la palabra en la TF va a ser igual a 1.
+	    # Agrega la palabra a la tabla de frecuencias solo si
+	    # el filtro de preprocesamiento es valido
+            if self.pre_procesamiento(word): 
+                if word in freqTable: # Si la palabra ya se encuentra en la tabla frecuencia,
+                    freqTable[word] += 1 # Suma 1 a la posición donde se encuentra la palabra.
+                else:
+                    freqTable[word] = 1 # Sino, la palabra en la TF va a ser igual a 1.
 
         #Muestra la tabla de frecuencias de cada palabra.
         #freqTable
@@ -102,3 +122,22 @@ class Resumen(object):
         res=str("\n"+"\n"+summary)
         #print(res)
         return res
+
+if __name__ == "__main__":
+    r = Resumen()
+    r.tablaFrecuencias("""El resumen es un escrito que sintetiza las ideas principales de un texto.
+
+La extensión del resumen puede variar, pero no suele pasar el 25 % de la extensión del original. En el resumen se han de evidenciar los vínculos lógicos de las ideas explicadas en el texto de partida, aunque esto suponga cambiar el orden en que aparecen, y la redacción debe adoptar un tono objetivo, independientemente del punto de vista del autor del texto base.
+
+Los resúmenes pueden elaborarse con diferentes objetivos:
+
+    Presentar una obra literaria (en tal caso se resume su trama) en la contraportada o en artículos publicitarios en los medios de comunicación;
+    Introducir al lector en un artículo científico (en este caso se llama resumen documental o abstract),1​ detallando los objetivos de la investigación y el problema que se aborda;
+    Demostrar un grado suficiente de comprensión lectora en la escuela;
+    Sintetizar la información para el estudio o consulta posterior.
+
+El resumen documental o abstract, requiere una metodología y puede abordarse mediante diferentes paradigmas y modelos.2​
+
+La Asociación Española de Normalización y Certificación (AENOR), a través de sus normas, hace recomendaciones de cómo preparar resúmenes siguiendo unos estándares de calidad.3​
+
+Con la tecnología en recuperación de información se han creado sistemas de resumen automático de documentos,4​ que requieren un tratamiento de la información digital en el procesamiento del lenguaje natural.""")
