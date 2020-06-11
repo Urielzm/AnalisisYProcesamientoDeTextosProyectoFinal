@@ -1,0 +1,16 @@
+La inteligencia artificial es un campo de la informatica, fundada como disciplina academica en 1955, la cual ha ido variendo con el tiempo, de tal forma que se han dividido subcampos que se relacionan entre si, basados en tecnicas o factores sociales.
+
+De esta manera, la inteligencia artificial (IA) se puede definir como la inteligencia demostrada por maquinas. Aunque en diversos libros de texto, es definida como el estudio de los agentes inteligentes, es decir, a partir de la percepcion del entorno que realice un dispositivo se tomaran decisiones que aumentaran la posibilidad de lograr un objetivo. Ahora bien, coloquialmente es definida para describir computadoras que imitan funciones cognitivas asociadas al aprendizaje y resolucion de problemas.
+
+Con el paso del tiempo, la capacidad de las computadoras ha ido aumentando, lo que ha provocado que algunas tareas ya no requieran ser resueltas con IA, lo anterior es conocido como efecto IA.
+
+Dicho lo anterior, se asocia a la broma en el Teorema de Tesler, la cual dice que la IA es lo que no se ha hecho todavia.
+
+Actualmente, las capacidad de las computadoras clasificadas como IA incluyes comprension del habla humana, competicion de alto nivel en juegos estrategicos, vehiculos autonomos, enrutamiento inteligente en redes para entrega de contenido y simulaciones militares.
+
+
+
+
+
+
+
