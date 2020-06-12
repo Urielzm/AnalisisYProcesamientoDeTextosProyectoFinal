@@ -107,7 +107,7 @@ class Html2Text(object):
         tag_list = self.get_a_tags()
         regex = '('
         for element_tag in tag_list:
-            regex += element_tag + '|'
+            regex += element_tag.replace("(","\(").replace(")","\)") + '|'
         return regex[:-1] + ')'
 
 if __name__ == "__main__":
